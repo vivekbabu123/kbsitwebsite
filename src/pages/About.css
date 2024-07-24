@@ -1,0 +1,126 @@
+section{
+    padding:  40px 0;
+
+}
+.technologies_start{
+    background-color: #000001;
+    border-bottom: 2px solid #fff;
+}
+.world_item{
+    background-color: #000001;
+    border-bottom: 2px solid #fff;
+}
+.tech_about h2{
+    font-size: 42px;
+    color: #fff;
+    font-weight: 800;
+}
+.tech_about p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+.tech_about button{
+    background-color: #8bc541;
+    padding: 12px 24px;
+}
+.tech_about button:hover{
+    background-color: #8bc541;
+    padding: 12px 24px;
+}
+.world_banner img{
+    margin: 0 14px;
+}
+.activated_img{
+    background-image: url(../assest/image/about-counter-bg-1.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.activated_img h2{
+    color: #fff;
+    font-weight: 800;
+    font-size: 52px;
+}
+.vl {
+    border-left: 4px solid #fff;
+    height: 80px;
+  }
+  .counter_enterprise h2{
+        font-size: 48px;
+        font-weight: 800;
+        margin-left: 25px;
+  }
+  .enterprises_deliever{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000001;
+  }
+.heading_ourteams a {
+    background-color: #000001;
+    padding: 12px 24px;
+    color: #fff;
+    text-decoration: none;
+}
+.title_heading h3{
+    color: #8bc541;
+    font-size: 42px !important;
+    font-weight: 800;
+}
+.heding_aboutus h1{
+    font-size: 56px;
+    color: #000001;
+}
+.heding_aboutus p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.about_img img{
+    border-radius: 20px;
+  
+    background-color: #f4f9fd;
+
+}
+.howwe_txt h6{
+    color: #8bc541;
+    font-size: 42px;
+}
+.howwe_txt h1{
+    color: #000001;
+    font-weight: 800;
+    
+} 
+.progress-bar {
+    background-color: #8bc541 !important;
+}
+.work_anal h2{
+    font-size: 18px;
+}
+.brewing_process{
+    background-image: url(../assest/image/h3-bg-section-03.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt_brewing h2{
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    font-size: 42px;
+}
+.txt_brewing button{
+    padding: 13px 23px;
+    background-color: #8bc541;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}

@@ -1,7 +1,8 @@
+// src/components/Header.js
 import React from "react";
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import 'boxicons';
-import 'boxicons/css/boxicons.min.css'; // Ensure BoxIcons CSS is imported
-
+import 'boxicons/css/boxicons.min.css'; 
 import kbsLogo from '../assest/image/kbs_logo.png'; 
 import './header.css';
 
@@ -12,9 +13,9 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container">
             <div className="logo">
-              <a href="#">
+              <Link to="/">
                 <img src={kbsLogo} alt="Logo" className="img-fluid img_logo" width="100" />
-              </a>
+              </Link>
             </div>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -24,19 +25,19 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link" aria-current="page" href="#">Home</a>
+                  <Link className="nav-link" aria-current="page" to="/">Home</Link>
                 </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">Company</a>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">About Us</a></li>
+                    <li><Link className="dropdown-item" to="/about">About Us</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">Service</a>
-                  <ul className="dropdown-menu">
+                  <ul className="dropdown-menu Service-item">
                     <li><a className="dropdown-item" href="#"><box-icon className="icon" type='solid' name='megaphone'></box-icon>Growth & Marketing</a></li>
                     <li><a className="dropdown-item" href="#"><box-icon name='globe'></box-icon>Web Development</a></li>
                     <li><a className="dropdown-item" href="#"><box-icon name='mobile'></box-icon>Mobile App Development</a></li>
@@ -96,18 +97,20 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Contact</a>
+                  <Link className="nav-link" to="/contact">Contact</Link>
                 </li>
               </ul>
               <div className="row">
-                <div className="call">
-                  <box-icon className="phonecall" name='phone-call' size="20px" color="#fff"></box-icon>
+                <div className="call col-6 rounded-circle mt-2">
+                  <box-icon className="phonecall rounded-circle" name='phone-call'   color="#fff"></box-icon>
                 </div>
                 <div className="col-6">
                   <p className="text-nowrap mb-0 fs-6">Call any time</p>
-                  <a href="#" className="text-decoration-none fs-4 fw-bold text-nowrap">+61455 254 491</a>
+                  <a href="#" className="text-decoration-none fs-5 fw-bold text-nowrap">+61455 254 491</a>
                 </div>
               </div>
+         
+             
             </div>
           </div>
         </nav>

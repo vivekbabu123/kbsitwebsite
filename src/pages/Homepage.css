@@ -227,4 +227,142 @@
     text-align: left;
     color: #131d2b;
 }
+/* responsive start */
+@media screen and (min-device-width: 768px) and (max-device-width: 992px){
+    .hero_content h1{
+        font-size: 36px;
+    }
+    .hero_content button {
+        padding: 12px 11px;
+       
+        font-size: 14px;
+    }
+    .hero_logo img {
+        width: 120px;
+        margin: 0 8px;
+    }
+    .empower_bussiness {
+       
+        height: 500px;
+      
+        margin-top: 0px;
+    }
+    .partner_heading {
+        align-items: center;
+        padding-top: 15px;
 
+}
+.empower_partner button{
+    padding: 12px 11px;
+       
+    font-size: 14px;
+}
+.attractive_content h2 {
+    font-size: 17px;
+   
+}
+.attractive_img img{
+    width: 60%;
+}
+.attractive_content p{
+    font-size: 14px;
+}
+.top_150 {
+    margin-top: 24px;
+    padding: 1rem !important;
+}
+.top_150 h5{
+    font-size: 10px;
+}
+.free_consputatiopn h2{
+    font-size: 28px;
+}
+.free_consputatiopn button{
+    padding: 12px 11px;
+       
+    font-size: 14px;
+}
+.choose_us {
+    height: 220px;
+}
+img.country-wonder.lazyloaded{
+    width:  400px !important;
+}
+       
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) { 
+    .hero{
+        height: 340px;
+    }
+    .hero_content h1{
+        font-size: 22px;
+    }
+    .hero_content h6{
+        font-size: 12px;
+    }
+    .hero_content button {
+        padding: 12px 11px;
+       
+        font-size: 14px;
+    }
+    .hero_logo img {
+        width: 45px;
+        margin: 0 10px;
+    }
+    .empower_bussiness{
+        height: 350px;
+        margin-top: 0px;
+    }
+    .empower_content h2{
+        font-size: 22px;
+    }
+    .empower_content  button {
+        padding: 12px 11px;
+       
+        font-size: 14px;
+    }
+    .partner_heading {
+        align-items: center;
+        padding-top: 15px;
+
+}
+.empower_partner button{
+    padding: 12px 11px;
+       
+        font-size: 14px;
+
+}
+.attractive_design{
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+.attractive_content h2{
+    margin-top: 10px;
+}
+.attractive_content p{
+    font-size: 15px;
+    
+}
+.attractive_content button{
+    padding: 12px 11px;
+       
+    font-size: 14px;
+}
+.top_150 {
+    margin-top: 15px;
+}
+.free_consputatiopn h2{
+    font-size: 10px;
+}
+.choose_us {
+    height: 290px;
+}
+.contact_title h1{
+    font-size: 24px;
+}
+.img.country-wonder.lazyloaded{
+    width: 300px;
+}
+
+}
+/* responsive start */

@@ -1,7 +1,8 @@
 import React from "react";
  import Header from "../components/Header";
  import './Homepage.css';
- import Slider from "../components/Slider";
+
+
  import Footer from "../components/Footer";
  import hero1 from "../assest/image/New-Project-49-1.webp";
  import hero2 from "../assest/image/New-Project-50-1.webp";
@@ -15,6 +16,7 @@ import React from "react";
  import attractiv3 from "../assest/image/customize@2x.png";
  import attractiv4 from "../assest/image/scalable@2x.png";
  import user from "../assest/image/5-d-51-b-1589-c-copy@3x.png";
+import SimpleSlider from "../components/SimpleSlider";
 
 
 
@@ -237,7 +239,7 @@ import React from "react";
                           </div>
                     </div>
                   </div>
-                  <Slider/>
+                  <SimpleSlider/>
 
                 </section>
              {/* client finish */}
@@ -288,10 +290,6 @@ import React from "react";
                                    <p><a className="footerTel" href="tel:+61455 254 491"><i className="fa fa-phone"></i>+61455 254 491</a></p>
                                </div>
                            </div>
-                         
-                         
-                           
-                  
                      </div>
                             </div>
                             <div className="col-md-6">

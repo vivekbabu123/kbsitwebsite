@@ -28,6 +28,9 @@
   font-size: large;
   margin: 0.5rem;
 }
+.Service-item{
+  width: 20rem;
+}
 
 .dropdown-item{
   font-weight: 500;
