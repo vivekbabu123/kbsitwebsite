@@ -1,0 +1,82 @@
+.mega-dropdown {
+  position: static;
+}
+.mega-dropdown-menu {
+  left: 0;
+  right: 0;
+
+  padding: 20px 15px;
+  width: 100%;
+  box-shadow: none;
+}
+.mega-dropdown-menu > .row {
+  margin: 0;
+
+}
+.dropdown-menu > li > a {
+  white-space: normal;
+}
+
+.nav-link:hover{
+  color: green;
+   
+}
+
+.nav-link{
+  color: black;
+  font-weight: 500;
+  font-size: large;
+  margin: 0.5rem;
+}
+
+.dropdown-item{
+  font-weight: 500;
+  color: black;
+  font-size: large;
+}
+.Service-item{
+  width: 20rem;
+}
+
+.dropdown-menu .dropdown-item {
+  white-space: normal; /* Allow text to wrap */
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menu .dropdown-item box-icon {
+  margin: 0 10px 0 0; /* Adjust space around the icon (top right bottom left) */
+  font-size: 1.2em; /* Adjust icon size */
+}
+
+
+.call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  transition: all 0.9s ease-in-out; /* Add transition */
+}
+
+/* Hover effect for the call div */
+.call  {
+  background-color: #3dad57; /* Change background color on hover */
+  transform: scale(1.1); /* Scale up the element */
+}
+
+/* Styling the box-icon */
+.call box-icon {
+  font-size: 24px; /* Adjust icon size */
+  color: white !important; /* Adjust icon color */
+  transition: color 0.9s ease-in-out; /* Add transition to color */
+}
+
+/* Hover effect for the box-icon */
+.call:hover box-icon {
+  color: #fff; /* Change icon color on hover */
+}
+.phonecall{
+  color: #fff !important;
+  
+}

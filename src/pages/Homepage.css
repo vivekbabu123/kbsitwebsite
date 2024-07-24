@@ -1,0 +1,230 @@
+.hero{
+    background-image: url(../assest/image/Kbit-solutions-code-brew-9.gif);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_content h1{
+    font-size: 52px;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.hero_content span{
+    color: #8bc541;
+
+}
+.hero_content h6{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.hero_content button{
+    padding: 12px 24px;
+    background-color: #8bc541;
+    border: transparent;
+    border-radius: 10px;
+    color: #Fff;
+    font-weight: 600;
+    font-size: 20px;
+   
+}
+.hero_logo img{
+    width: 120px;
+    margin: 0 15px;
+    
+}
+.empower_bussiness{
+    background-image: url(../assest/image/solutions-banner-3.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+.empower_content h2{
+    font-weight: 700;
+    color: #fff;
+    font-size: 42px;
+    line-height: 1.2;
+}
+.empower_content button{
+    padding: 12px 24px;
+    background-color: #8bc541;
+    border: transparent;
+    border-radius: 10px;
+    color: #Fff;
+    font-weight: 600;
+    font-size: 20px;
+   
+}
+
+/* Empower bussiness finish */
+/* partnership start */
+.empower_partner h5{
+    font-weight: 700;
+    font-size: 26px;
+    color: #000;
+
+}
+.empower_partner p{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(56,56, 56, 1);
+
+}
+.empower_partner button{
+    padding: 12px 24px;
+    background-color: #8bc541;
+    border: transparent;
+    border-radius: 10px;
+    color: #Fff;
+    font-weight: 600;
+    font-size: 20px;
+   
+}
+/* partnership finish */
+/* attractive content start */
+.attractive_design {
+    border: 2px solid #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.attractive_content h2{
+    font-size: 26px;
+    font-weight: 800;
+
+}
+.attractive_content p{
+    font-size: 20px;
+    font-weight: 400;
+    
+
+}
+.attractive_content button{
+    padding: 12px 24px;
+    background-color: #8bc541;
+    border: transparent;
+    border-radius: 10px;
+    color: #Fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* attractive content finish */
+.top_vated{
+    background-color: #112A5A;
+}
+.top_150{
+    margin-top: 60px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.free_consputatiopn h2{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+}
+.free_consputatiopn button{
+    padding: 12px 24px;
+    background-color: #8bc541;
+    border: transparent;
+    border-radius: 10px;
+    color: #Fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.choose_us{
+    background-image: url(../assest/image/h3-bg-section-04.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.choose_txt {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+  }
+ .choose_txt::after {
+    flex: 1;
+    content: '';
+    padding: 3px;
+    background-color: #8bc541;
+    margin: 5px;
+   
+  }
+  .choose_bold h1{
+    color: #000;
+    font-weight: 900;
+    padding-bottom: 40px;
+  }
+  .choose_bold p{
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .contact_title h6{
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .contact_title h1{
+    font-size: 48px;
+    font-weight: 600;
+    
+  }
+  .contact_title span{
+    color: #8bc541;
+  }
+
+
+#myCarouseladdress .item h4 {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #131d2b;
+}
+#myCarouseladdress .item h5 {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4c525a;
+}
+#myCarouseladdress .item h5 {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4c525a;
+}
+#myCarouseladdress .item p {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #131d2b;
+}
+

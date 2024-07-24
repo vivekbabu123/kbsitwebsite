@@ -1,0 +1,35 @@
+.footer_header h2 {
+    font-size: 22px;
+    color: #000001;
+    
+    line-height: 1.2;
+    
+    font-weight: 700;
+
+}
+.footer_list ul{
+    padding-left: 5px !important;
+}
+.footer_list li{
+    list-style: none;
+    padding: 8px 0;
+
+}
+.footer_list li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+  .follow_social a {
+    margin: 0 10px; /* Add horizontal spacing between icons */
+    font-size: 24px; /* Increase the font size of the icons */
+    color: #333; /* Default color for icons */
+    transition: color 0.3s ease; /* Smooth transition for color changes */
+  }
+  
+  .follow_social a:hover {
+    color: #8BC541; /* Color change on hover */
+  }
+  
