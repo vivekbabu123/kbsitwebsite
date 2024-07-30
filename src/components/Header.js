@@ -35,9 +35,10 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
-                  <Link className="nav-link dropdown-toggle" to="/ServicesGrid" role="button" data-bs-toggle="dropdown"
+                  <Link className="nav-link dropdown-toggle" to="" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">Service</Link>
                   <ul className="dropdown-menu Service-item">
+                  <li><Link className="dropdown-item" to="/ServicesGrid"><box-icon className="icon" type='solid' name='user-voice'></box-icon>Service</Link></li>
                     <li><Link className="dropdown-item" to="/ServicesGrid/GrowthandMarketing"><box-icon className="icon" type='solid' name='megaphone'></box-icon>Growth & Marketing</Link></li>
                     <li><Link className="dropdown-item" to="/ServicesGrid/WebDevelopment"><box-icon name='globe'></box-icon>Web Development</Link></li>
                     <li><Link className="dropdown-item" to="/ServicesGrid/MobileDevelopment"><box-icon name='mobile'></box-icon>Mobile App Development</Link></li>
@@ -95,10 +96,10 @@ const Header = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link className="dropdown-item nav-link" to="/Blog">Blog</Link>
+                      <Link className="dropdown-item nav-link w-auto" to="/Blog">Blog</Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item nav-link" to="/Video">Video</Link>
+                      <Link className="dropdown-item nav-link w-auto" to="/Video">Video</Link>
                     </li>
                   </ul>
                 </li>
