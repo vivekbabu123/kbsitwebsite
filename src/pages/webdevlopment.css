@@ -1,0 +1,138 @@
+.hero-section {
+    background-color: #353A63;
+    padding: 50px 0;
+  }
+  
+  .hero_text h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    
+  }
+  .hero_text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;
+    
+  }
+  .hero_text button{
+    background-color: #61CE70;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    
+  }
+  .hero_text button:hover{
+    background-color: #61CE70;
+    
+  }
+  .number_speakers{
+    font-size: 46px;
+    font-weight: 700;
+    
+  }
+  .numbers-box{
+    padding: 60px 40px;
+    border-radius: 5px 20px 5px;
+    
+  }
+  .numbers-box img{
+    width: 15% !important;
+  }
+  .numbers-box p{
+    font-size: 20px;
+    padding-top: 10px;
+    white-space: nowrap;
+    font-weight: 400;
+  }
+  .notch_web{
+    background-image: url(../assest/image/webdevelopment/web-bgsection.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+  }
+
+  .notch_web-heading h1{
+      font-size: 72px;
+      color: #fff;
+      font-weight: 700;
+  }
+  .step{
+    display: flex;
+   
+    
+      text-align: center;
+      position: relative;
+      padding: 20px;
+  
+    }
+
+  .step-icon {
+    background-color: #74c043;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+   
+    font-size: 1.5rem;
+  }
+  .step-number {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  .step-description {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  .step-divider {
+    border-top: 2px dashed #fff;
+    position: absolute;
+    top: 50%;
+    width: 37%;
+    right: -20px;
+    
+  }
+  .heading_whydevelopment h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 52px;
+  }
+  .flip-box {
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front,
+  .flip-box-back {
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-back {
+    transform: rotateY(180deg);
+  }
+  
+ 
+ 

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Contactus from "../components/Contactus";
 import "./About.css";
 import abouteimage1 from "../assest/image/about_banner1.png";
 import abouteimage2 from "../assest/image/about-banner2.png";
@@ -17,7 +18,9 @@ import teams5 from "../assest/image/teams5.jpg";
 import teams6 from "../assest/image/teams6.webp";
 import aboutphoto from "../assest/image/theme-10-600x473.jpg";
 import howwe from "../assest/image/corona-g9c1081904_1920-768x512.jpg";
+
 import Footer from "../components/Footer";
+
 
 
 let About = () => {
@@ -273,7 +276,7 @@ let About = () => {
         </section>
       {/* how we works finish */}
       {/* brewing process start */}
-        <section className="brewing_process">
+        <section className="brewing_process mb-3">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -287,61 +290,10 @@ let About = () => {
             </div>
 
         </section>
-      {/* brewing process finish */}
 
-
-
-        {/* contact us start */}
-        <section className="contact_us py-2">
-                    <div className="container">
-                      <div className="row">
-                          <div className="contact_title">
-                            <h6>Contact Us</h6>
-                            <h1>It’s very easy to <span>contact </span> us</h1>
-                          </div>
-                          <div className="row align-itmes-center">
-                            <div className="col-md-6">
-                 
-                           <div className="">
-                           <div className="item">
-                              
-                               <div className="container">
-                                   <h4>Australia</h4>
-                                   <h5>Level 1,office 2, 73Malop<br/>  street Geelong, Victoria Australia</h5>
-                                   <p><a className="footerEmailer" href="mailto:Sales@kbitsolutions.com.au"><i className="fa fa-envelope-o"></i>Sales@kbitsolutions.com.au</a></p>
-                                   <p><a className="footerTel" href="tel:+61455 254 491"><i className="fa fa-phone"></i> +61455 254 491</a></p>
-                               </div>
-                           </div>
-                           <div className="item">
-                               <div className="container">
-                                   <h4>India</h4>
-                                   <h5>377 , 1st Floor, Bmm, Phase 11, Sector 65,<br/> Sahibzada Ajit Singh Nagar, Punjab 160062</h5>
-                                   <p><a className="footerEmailer" href="mailto:Sales@kbitsolutions.com.au"><i className="fa fa-envelope-o"></i> Sales@kbitsolutions.com.au</a></p>
-                                   <p><a className="footerTel" href="tel:+61455 254 491"><i className="fa fa-phone"></i>+61455 254 491</a></p>
-                               </div>
-                           </div>
-                     </div>
-                            </div>
-                            <div className="col-md-6">
-                            <img 
-                                   alt="Dubai" 
-                                   width="650PX" 
-                                   height="auto" 
-                                   src="https://cdn-gnpmp.nitrocdn.com/zXfatNvCxdJLOJQwdBcjdAFpyWHclmaD/assets/images/optimized/rev-6b6d411/www.code-brew.com/wp-content/uploads/2019/09/dubai.webp" 
-                                   className="country-wonder lazyloaded" 
-                                   decoding="async" 
-                               />
-                            </div>
-                          </div>
-                         
-            
-                      </div>
-                    </div>
-
-                  </section>
-
-              {/* contact us finish */}
-              <Footer/>
+        
+        <Contactus/>
+ <Footer/>
     </React.Fragment>
   );
 };

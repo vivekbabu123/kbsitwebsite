@@ -1,0 +1,13 @@
+.video_txt h4{
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.video_txt button{
+    background-color: #8BC541;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #8BC541;
+}

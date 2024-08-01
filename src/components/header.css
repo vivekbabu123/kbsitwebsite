@@ -83,3 +83,17 @@
   color: #fff !important;
   
 }
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block; /* Show the dropdown */
+}
+
+.dropdown-menu {
+  display: none; /* Hide the dropdown by default */
+  position: absolute; /* Position it absolutely */
+}
+
+.dropdown-item {
+  white-space: nowrap; /* Prevent text wrapping */
+}
+

@@ -1,0 +1,105 @@
+.hero_banner{
+    background-color: #121273;
+}
+.hero_txt h2{
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+}
+.hero_txt p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.hero_txt button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #61CE70;
+    padding: 10px 30px;
+}
+.hero_txt button:hover{
+    
+    background-color: #61CE70;
+  
+}
+.heading_vast h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+.vast_card{
+    padding: 40px;
+    text-align: center;
+    background-color: #8BC541;
+    color: #fff;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.apple_icon h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.apple_btn{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.business_heading{
+    background-color: #121273;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+.bn_txt h2{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+
+}
+.bn_bun button{
+    padding: 15px 30px;
+    background-color: #8bc541;
+    border-radius: 18px;
+}
+.quality_heading h2{
+    font-size: 52px;
+    font-weight: 800;
+}
+.bitcoin_insider img{
+    padding: 30px;
+    border-radius: 60px !important;
+}
+.bitcoin_insider h2{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.bitcoin_insider h3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.icon-container {
+    font-size: 2rem; /* Adjust the size as needed */
+  }
+  
+  .bx {
+    color: #007bff; /* Adjust the color as needed */
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

@@ -1,0 +1,240 @@
+/* General Styles */
+.digit_market {
+    background-color: #353A63;
+}
+
+.digit_text h2 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.digit_text span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.digit_text p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.digit_text button {
+    background-color: #8bc541;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.digit_text button:hover {
+    background-color: #8bc541;
+    color: #fff;
+}
+
+/* Animation Styles */
+.grow_img {
+    animation: particleToptoBottom2 12s infinite linear alternate;
+}
+
+@keyframes particleToptoBottom2 {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(5%);
+    }
+}
+.why_choose_heading h2{
+    font-weight: 800;
+    font-size: 48px;
+
+}
+.why_choose_heading h5{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.why_choose_heading li{
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.whycard {
+    background-color: white;
+    border-radius: 5px 20px 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 15px;
+    margin: 20px;
+    height: 200px ;
+    
+}
+.whycard:hover{
+    background-color: #8bc541;
+    color: #fff;
+} 
+.whycard h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    font-weight: 800;
+}
+
+.whycard p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    display: inline-block;
+    height: 3px; /* Adjust line height as needed */
+    background-color: #8bc541;
+    width: 100px; /* Adjust line width as needed */
+    margin: 0 10px; /* Adjust margin between line and text */
+}
+
+.services-container span {
+    font-weight: 800;
+    color: #8bc541;
+    font-size: 40px;
+}
+.growth_heading h2{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.7;
+    color: #8bc541;
+    
+}
+.service-box {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+    width: 100%; /* Allow full width */
+    height: 250px; /* Fixed height */
+    padding: 10px; /* Padding around the content */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Align content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+   
+}
+
+.service-box:hover {
+    background-color:#8bc541; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+.service-box i {
+    font-size: 42px; /* Increase icon size */
+    margin-bottom: 5px; /* Spacing between icon and text */
+}
+
+.service-box p {
+    font-size: 28px; /* Increase text size */
+    margin: 0; /* Remove default margin */
+    font-weight: 600;
+}
+.web_text h2{
+    font-size: 42px;
+    font-weight: 800;
+    color: #8bc541;
+}
+.web_text h5{
+    font-size: 38px;
+    font-weight: 500;
+   
+}
+.web_text p{
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+.mobileapp-title h1{
+    text-align: center;
+    font-weight: 800;
+    color: #8bc541;
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+.app_analytics h2{
+    text-align: center;
+    color: #8bc541;
+    font-size: 42px;
+    font-weight: 700;
+    padding-top: 10px;
+
+}
+.app_analytics p{
+    text-align: center;
+    
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+
+}
+.pinacle_start{
+    background-image: url(../assest/image/growth_bg.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #Fff;
+    margin-bottom: 20px;
+}
+.pinacle_start h2{
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+}
+.pinacle_start p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.driven_quality{
+    background-color: #1d4180;
+}
+.driven_btn button{
+    background-color: #8bc541;
+    padding: 15px 25px;
+    font-weight: 600;
+    
+}
+.driven_btn button:hover{
+    background-color: #8bc541;  
+}
+.service_bussiness{
+    font-size: 42px;
+    font-weight: 700;
+}
+.service_title{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.services-box{
+    background-color: white;
+    border-radius: 5px 20px 5px;
+    
+    padding: 20px 15px;
+    margin: 20px;
+ 
+}
+.services-box h4{
+    font-size: 22px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+
+
