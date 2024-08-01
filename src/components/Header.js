@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import 'boxicons';
 import 'boxicons/css/boxicons.min.css'; 
-import kbsLogo from '../assest/image/kbs_logo.png'; 
+import logo from '../assest/image/kbslogo.png'; 
 import './header.css';
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
           <div className="container">
             <div className="logo">
               <Link to="/">
-                <img src={kbsLogo} alt="Logo" className="img-fluid img_logo" width="100" />
+                <img src={logo} alt="Logo" className="img-fluid img_logo" width="100" />
               </Link>
             </div>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"

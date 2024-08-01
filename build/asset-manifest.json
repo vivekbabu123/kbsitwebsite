@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.49dbe4cb.css",
-    "main.js": "/static/js/main.534c6e3a.js",
+    "main.js": "/static/js/main.e96eaa9a.js",
     "static/js/453.3fbe915c.chunk.js": "/static/js/453.3fbe915c.chunk.js",
     "static/media/blockchain1.gif": "/static/media/blockchain1.0b5dc4a74bd623f8b02e.gif",
     "static/media/boxicons.svg": "/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
@@ -46,7 +46,7 @@
     "static/media/app_anayltics.jpg": "/static/media/app_anayltics.9cc76c446bbe6da4b919.jpg",
     "static/media/growth_bg.jpg": "/static/media/growth_bg.c2c97996e0f72b9721d6.jpg",
     "static/media/h3-bg-section-03.jpg": "/static/media/h3-bg-section-03.c2c97996e0f72b9721d6.jpg",
-    "static/media/kbs_logo.png": "/static/media/kbs_logo.e09fca77e639c33a7196.png",
+    "static/media/kbslogo.png": "/static/media/kbslogo.e09fca77e639c33a7196.png",
     "static/media/b1.jpg": "/static/media/b1.2d1d5718ab58220cc1ca.jpg",
     "static/media/webdesign.jpg": "/static/media/webdesign.08564eb3835e5727f117.jpg",
     "static/media/bannner.png": "/static/media/bannner.980e34ff49f83c930f74.png",
@@ -111,11 +111,11 @@
     "static/media/about-counter-icn_2-2-svg.webp": "/static/media/about-counter-icn_2-2-svg.1d5aa877d0597e9d107e.webp",
     "static/media/about-counter-icn_1-3-svg.webp": "/static/media/about-counter-icn_1-3-svg.801efce1946245a1cbfa.webp",
     "main.49dbe4cb.css.map": "/static/css/main.49dbe4cb.css.map",
-    "main.534c6e3a.js.map": "/static/js/main.534c6e3a.js.map",
+    "main.e96eaa9a.js.map": "/static/js/main.e96eaa9a.js.map",
     "453.3fbe915c.chunk.js.map": "/static/js/453.3fbe915c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49dbe4cb.css",
-    "static/js/main.534c6e3a.js"
+    "static/js/main.e96eaa9a.js"
   ]
 }

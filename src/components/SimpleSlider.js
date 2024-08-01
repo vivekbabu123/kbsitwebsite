@@ -44,7 +44,7 @@ const SimpleSlider = () => {
   };
 
   return (
-    <section >
+    <section>
        <div className="container">
       <div className="row">
         <Slider {...settings}>
