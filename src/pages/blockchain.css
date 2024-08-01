@@ -1,0 +1,105 @@
+.blockchain_hero{
+    background-color: #000;
+}
+.blockchainhero_txt h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+}
+.blockchainhero_txt p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+.blockchainhero_txt button{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #61CE70;
+    padding: 15px 30px;
+    color: #fff;
+}
+.blockchainhero_txt button:hover{
+  
+    background-color: #61CE70;
+  
+    color: #fff;
+}
+.heading_stack h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.multicard img{
+    width: 15%;
+}
+.multicard {
+    background-color: #fff;
+    padding: 40px 25px;
+}
+.multicard:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 40px 25px;
+    border-radius: 15px;
+   
+}
+.quality_driven {
+    background-color: #1d4180;
+}
+.quality_driventxt h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+}
+.quality_driventxt button{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #61CE70;
+    padding: 15px 30px;
+    color: #fff;
+}
+.quality_driventxt button:hover{
+    
+    background-color: #61CE70;
+ color: #fff;
+}
+.tocken_offering img{
+    width: 85%;
+    border-radius: 30px;
+    padding-bottom: 20px;
+}
+.enterprises_heading h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+    padding-bottom: 30px;
+
+}
+.trust_1{
+    background: linear-gradient(to right, #2196F3, #03A9F4);
+    padding: 30px;
+    border-radius: 20px;
+}
+.trust_1 h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+}
+.trust_1 p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.trust_1 button{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #61CE70;
+    padding: 15px 30px;
+    color: #fff;
+}
+.trust_1 button:hover{
+     background-color: #61CE70;
+     color: #fff;
+}

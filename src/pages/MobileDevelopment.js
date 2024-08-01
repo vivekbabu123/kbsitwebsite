@@ -354,7 +354,7 @@ let MobileDevelopment = () => {
       <div className="row">
         {services.map((service, index) => (
           <div key={index} className="col-lg-3 col-md-4 col-sm-6 mb-4">
-            <div className="card text-center h-100">
+            <div className="whycard text-center h-100">
               <div className="card-body d-flex flex-column align-items-center">
                 <div className="icon-container mb-3">
                   <i className={`bx ${service.icon} bx-lg`}></i>

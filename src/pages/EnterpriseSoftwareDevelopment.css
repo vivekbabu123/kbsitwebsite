@@ -17,3 +17,60 @@
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     padding: 30px;
 }
+
+.feature_solutions h5{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 40px;
+
+}
+.enterpriseswhy_heading {
+    position: relative; 
+    text-align: center; 
+}
+
+.enterpriseswhy_heading h2 {
+    font-size: 24px;
+    font-weight: 700;
+    display: inline-block; 
+   
+}
+
+.enterpriseswhy_heading h2::before {
+    content: ''; 
+    width: 10px; 
+    height: 10px;
+    background-color: #4F3DFF ; 
+    border-radius: 50%;
+    position: absolute; 
+    left: 41%;
+   
+    
+}
+.enterpriseswhy_heading h2::after {
+    content: '';
+    width: 10px; 
+    height: 10px;
+    background-color: #4F3DFF ; 
+    border-radius: 50%; 
+    position: absolute;
+    margin-left: 25px;
+   
+    
+}
+.testonimal_heading {
+    font-size: 48px;
+    font-weight: 800;
+}
+.item--title {
+    font-size: 46px;
+    font-weight: 700;
+}
+.testominal_2 img{
+    width: 85%;
+    
+}
+  
+
+ 
+

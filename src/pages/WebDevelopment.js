@@ -18,7 +18,7 @@ import Footer from "../components/Footer";
 let FlipBox = ({ icon, type, name, title, frontContent, backContent }) => {
   return (
     <div className="col-md-6 col-lg-3 col-xl-3">
-      <div className="card text-center flip-box">
+      <div className="whycard text-center flip-box">
         <div className="flip-box-inner">
           <div className="flip-box-front">
             <div className="card-body">

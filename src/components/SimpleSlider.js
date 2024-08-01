@@ -44,7 +44,8 @@ const SimpleSlider = () => {
   };
 
   return (
-    <div className="container">
+    <section >
+       <div className="container">
       <div className="row">
         <Slider {...settings}>
           <div className="col">
@@ -65,6 +66,8 @@ const SimpleSlider = () => {
         </Slider>
       </div>
     </div>
+    </section>
+   
   );
 }
 
