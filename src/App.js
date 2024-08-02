@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Updated import
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import HomePages from './pages/HomePages';
 import About from './pages/About';
@@ -18,6 +18,8 @@ import WebDevelopment from './pages/WebDevelopment';
 import MobileDevelopment from './pages/MobileDevelopment';
 import EnterpriseSoftwareDevelopment from './pages/EnterpriseSoftwareDevelopment';
 import BlockChain from './pages/BlockChain';
+import 'boxicons';
+
 
 
 

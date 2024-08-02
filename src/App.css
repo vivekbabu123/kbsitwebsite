@@ -47,5 +47,22 @@ body{
             padding: 40px 20px;
             border-radius: 20px;
     }
+    @media screen and (min-device-width: 767px) and (max-device-width: 992px){
+        .reach_location{
+            margin: 10px;
+     }
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 767px){
+        .heading-rach p {
+            font-size: 20px;
+        }
+        .heading-rach h6 {
+            font-size: 26px;
+            
+        }
+        .reach_location{
+           margin: 10px;
+    }
+    }
 
 

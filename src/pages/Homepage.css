@@ -1,5 +1,5 @@
 .hero{
-    background-image: url(../assest/image/Kbit-solutions-code-brew-9.gif);
+    background-image: url(../assest/image/homepage_hero.gif);
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,7 +39,7 @@
     
 }
 .empower_bussiness{
-    background-image: url(../assest/image/solutions-banner-3.webp);
+    background-image: url(../assest/image/hompagebanner2.webp);
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@
     font-size: 20px;
 }
 .choose_us{
-    background-image: url(../assest/image/h3-bg-section-04.jpg);
+    background-image: url(../assest/image/homepage5.jpg);
     height: 400px;
     background-position: center;
     background-size: cover;
@@ -305,12 +305,15 @@ img.country-wonder.lazyloaded{
        
         font-size: 14px;
     }
+    .hero_logo{
+        padding-top: 10px !important;
+    }
     .hero_logo img {
-        width: 45px;
-        margin: 0 10px;
+        width: 39px;
+        margin: 0 5px;
     }
     .empower_bussiness{
-        height: 350px;
+        height: 190px;
         margin-top: 0px;
     }
     .empower_content h2{
@@ -328,13 +331,14 @@ img.country-wonder.lazyloaded{
 }
 .empower_partner button{
     padding: 12px 11px;
-       
+    margin-bottom: 20px;
         font-size: 14px;
 
 }
 .attractive_design{
     flex-direction: column;
     padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 .attractive_content h2{
     margin-top: 10px;
@@ -347,6 +351,9 @@ img.country-wonder.lazyloaded{
     padding: 12px 11px;
        
     font-size: 14px;
+}
+.top_vated {
+    margin-top: 10px !important;
 }
 .top_150 {
     margin-top: 15px;
@@ -362,6 +369,11 @@ img.country-wonder.lazyloaded{
 }
 .img.country-wonder.lazyloaded{
     width: 300px;
+}
+.free_consputatiopn button {
+    padding: 10px 4px;
+  
+    font-size: 16px;
 }
 
 }

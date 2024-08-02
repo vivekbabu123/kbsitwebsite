@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
-import blog1 from "../assest/image/blog_1.png";
-import blog2 from "../assest/image/blog2.jpg";
-import blog3 from "../assest/image/blog3.jpg";
+import blog1 from "../assest/image/bimg1.png";
+import blog2 from "../assest/image/bimg2.jpg";
+import blog3 from "../assest/image/bimg3.jpg";
 import "./Blog.css";
 import Footer from "../components/Footer";
 

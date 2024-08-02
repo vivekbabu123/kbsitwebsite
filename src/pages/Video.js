@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../components/Header";
 import './VideoItems.css';
-import video1 from '../assest/image/video/1.png';
-import video2 from '../assest/image/video/2.png';
-import video3 from '../assest/image/video/3.png';
-import video4 from '../assest/image/video/4.png';
-import video5 from '../assest/image/video/5.png';
-import video6 from '../assest/image/video/6.png';
-import video7 from '../assest/image/video/7.png';
+import video1 from '../assest/image/video/11.png';
+import video2 from '../assest/image/video/22.png';
+import video3 from '../assest/image/video/33.png';
+import video4 from '../assest/image/video/44.png';
+import video5 from '../assest/image/video/55.png';
+import video6 from '../assest/image/video/66.png';
+import video7 from '../assest/image/video/77.png';
 import Footer from "../components/Footer";
 
 

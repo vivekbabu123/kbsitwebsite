@@ -103,3 +103,50 @@
      background-color: #61CE70;
      color: #fff;
 }
+@media screen and (min-device-width: 768px) and (max-device-width: 992px){
+    .blockchainhero_txt h1 {
+        font-size: 31px;
+     
+    }
+    .quality_driventxt h2 {
+        font-size: 25px;
+      
+    }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    .blockchainhero_txt h1 {
+        font-size: 30px;
+     
+    }
+    .blockchainhero_txt button {
+        
+      
+        padding: 7px 16px;
+        margin-bottom: 10px;
+      
+    }
+    .heading_stack h2 {
+        
+        font-size: 25px;
+       
+        margin-bottom: 0;
+    }
+    .multicard {
+        background-color: #fff;
+       padding:0px;
+    }
+    .quality_driventxt h2 {
+        font-size: 15px;
+        font-weight: 800;
+        color: #fff;
+    }
+    .enterprises_heading h1 {
+       
+        font-size: 21px;
+       
+        padding-bottom: 20px;
+    }
+    .trust_1{
+        margin-bottom: 15px;
+    }
+}

@@ -136,7 +136,7 @@ let Contact = () => {
             </div>
           </div>
           <div className="row">
-                <div className="col-md-3 ">
+                <div className="col-12 col-md-6 col-lg-3 col-xl-3 ">
                     <div className="text-center reach_location">
                         <div className="me-3">
                             <i className='bx bx-map bx-lg'></i>
@@ -179,7 +179,7 @@ let Contact = () => {
                     </div>
                 </div>
 
-                <div className="col-md-3 ">
+                <div className="col-12 col-md-6 col-lg-3 col-xl-3 ">
                     <div className="text-center reach_location">
                         <div className="me-3">
                             <i className='bx bx-phone bx-lg'></i>
@@ -195,7 +195,7 @@ let Contact = () => {
                     </div>
                 </div>
 
-                <div className="col-md-3 ">
+                <div className="col-12 col-md-6 col-lg-3 col-xl-3 ">
                     <div className="text-center reach_location">
                         <div className="me-3">
                             <i className='bx bx-envelope bx-lg'></i>
@@ -211,7 +211,7 @@ let Contact = () => {
                     </div>
                 </div>
 
-                <div className="col-md-3 ">
+                <div className="col-12 col-md-6 col-lg-3 col-xl-3 ">
                     <div className="text-center reach_location">
                         <div className="me-3">
                             <i className='bx bx-chat bx-lg'></i>

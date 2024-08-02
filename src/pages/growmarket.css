@@ -235,6 +235,55 @@
     padding: 10px 0;
     font-weight: 600;
 }
+@media screen and (min-device-width: 768px) and (max-device-width: 992px){
+    .digit_text h2 {
+        
+        font-size: 42px;
+        
+    }
+    .service-box{
+        height: 180px;
+    }
+    .web_text h5 {
+        font-size: 28px;
+       
+    }
+    .web_text p {
+        font-size: 16px;
+        
+    }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    .digit_text h2 {
+        
+        font-size: 34px;
+        
+    }
+    .why_choose_heading h2 {
+     
+        font-size: 34px;
+    }
+    .services-container span {
+    
+        font-size: 13px;
+    }
+    .growth_heading h2 {
+        font-size: 25px;
+        
+    }
+    .service-box{
+        height: 180px;
+    }
+    .web_text h5 {
+        font-size: 30px;
+      
+    }
+   
+    .pinacle_start h2 {
+        font-size: 20px;
+       
+    }
+}
 
 
 

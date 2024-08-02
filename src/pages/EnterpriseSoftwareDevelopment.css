@@ -70,6 +70,40 @@
     width: 85%;
     
 }
+@media screen and (min-device-width: 768px) and (max-device-width: 992px){
+    .custom_heading h1 {
+        font-size: 25px;
+        
+    }
+    .testonimal_heading {
+        font-size: 36px;
+       
+    }
+    .item--title {
+        font-size: 26px;
+        font-weight: 700;
+    }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    .custom_heading h1 {
+        font-size: 21px;
+       
+    }
+    .enterpriseswhy_heading h2::before{
+        display: none;
+    }
+    .enterpriseswhy_heading h2::after{
+        display: none;
+    }
+    .testonimal_heading {
+        font-size: 23px;
+        
+    }
+    .item--title {
+        font-size: 15px;
+        
+    }
+}
   
 
  

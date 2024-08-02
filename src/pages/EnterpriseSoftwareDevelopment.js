@@ -227,7 +227,7 @@ const EnterpriseSoftwareDevelopment = () => {
           {/* First Section */}
           <div className="row">
             {chooseCustom.slice(0, 3).map((item, index) => (
-              <div key={index} className="col-md-4 mb-4 h-100">
+              <div key={index} className="col-12 col-md-6 col-lg-4 col-xl-4 mb-4 h-100">
                 <div className="software_solutions text-center">
                   <img
                     decoding="async"
@@ -247,7 +247,7 @@ const EnterpriseSoftwareDevelopment = () => {
           {/* Second Section */}
           <div className="row">
             {chooseCustom.slice(3, 6).map((item, index) => (
-              <div key={index} className="col-md-4 mb-4 h-100">
+              <div key={index} className="col-12 col-md-6 col-lg-4 col-xl-4 mb-4 h-100">
                 <div className="software_solutions text-center">
                   <img
                     decoding="async"

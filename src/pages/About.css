@@ -29,10 +29,10 @@ section{
     padding: 12px 24px;
 }
 .world_banner img{
-    margin: 0 14px;
+    margin: 0 5px;
 }
 .activated_img{
-    background-image: url(../assest/image/about-counter-bg-1.png);
+    background-image: url(../assest/image/counterabout.png);
     height: 400px;
     background-position: center;
     background-size: cover;
@@ -102,7 +102,7 @@ section{
     font-size: 18px;
 }
 .brewing_process{
-    background-image: url(../assest/image/h3-bg-section-03.jpg);
+    background-image: url(../assest/image/homepahebg.jpg);
     height: 600px;
     background-position: center;
     background-size: cover;
@@ -124,3 +124,69 @@ section{
     font-size: 20px;
     font-weight: 600;
 }
+/* responsive start */
+@media screen and (min-device-width: 768px) and (max-device-width: 992px){
+    .tech_about h2 {
+        font-size: 28px;
+        
+    }
+    .world_trust h2{
+        font-size: 20px;
+    }
+    .activated_img h2 {
+        color: #fff;
+        font-weight: 800;
+        font-size: 38px;
+    }
+    .counter_enterprise h2 {
+        font-size: 35px;
+        
+    }
+    .heding_aboutus h1 {
+        font-size: 28px;
+      
+    }
+    .heding_aboutus p {
+        font-size: 16px;
+       
+    }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .tech_about h2 {
+        font-size: 25px;
+      
+    }
+    .tech_about button {
+        background-color: #8bc541;
+        padding: 8px 18px;
+        margin-bottom: 15px;
+    }
+    .world_trust h2{
+        font-size: 20px;
+    }
+    .activated_img h2 {
+       
+        font-size: 35px;
+    }
+    .counter_enterprise h2 {
+        font-size: 26px;
+        
+    }
+    .heding_aboutus h1 {
+        font-size: 27px;
+       
+    }
+    .heding_aboutus p {
+        font-size: 15px;
+        
+    }
+    .howwe_txt h6 {
+      
+        font-size: 39px;
+    }
+    .txt_brewing h2 {
+       
+        font-size: 15px;
+    }
+}
+/* responsive start */

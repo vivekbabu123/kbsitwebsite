@@ -207,7 +207,7 @@ let MobileDevelopment = () => {
           <div className="row">
           {cardsData.slice(0, 4).map((card, index) => (
               <div
-                className="col-md-3"
+                className="col-12 col-md-6 col-lg-3 col-xl-3"
                 data-aos={index % 2 === 0 ? "flip-down" : "flip-right"} // Alternates between flip-down and flip-right
                 key={index}
               >
@@ -314,7 +314,7 @@ let MobileDevelopment = () => {
           <div className="row">
           {cardsData.slice(4).map((card, index) => (
               <div
-                className="col-md-3"
+                className="col-12 col-md-6 col-lg-3 col-xl-3"
                 data-aos={index % 2 === 0 ? "flip-down" : "flip-right"} // Alternates between flip-down and flip-right
                 key={index}
               >

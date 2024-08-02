@@ -133,6 +133,67 @@
   .flip-box-back {
     transform: rotateY(180deg);
   }
-  
+  @media screen and (min-device-width: 768px) and (max-device-width: 992px){
+    .numbers-box p {
+    
+      white-space: wrap;
+      
+  }
+  .notch_web-heading h1 {
+    font-size: 34px;
+   
+}
+.step-number {
+  font-size: 2rem;
  
+}
+
+.heading_whydevelopment h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+  }
+  
+  @media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    .hero_text h1 {
+      font-size: 28px;
+    
+  }
+  .hero_text button {
+  
+    padding: 10px 18px;
+    margin-bottom: 20px;
+    
+}
+.number_speakers {
+  font-size: 28px;
+  font-weight: 700;
+}
+.service_bussiness {
+  font-size: 31px;
+  font-weight: 700;
+}
+.notch_web-heading h1 {
+  font-size: 26px;
+
+}
+.step {
+
+  padding: 11px;
+}
+.step-number {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+.step-divider{
+  display: none;
+}
+.heading_whydevelopment h1 {
+  
+  font-size: 27px;
+}
+  }
  

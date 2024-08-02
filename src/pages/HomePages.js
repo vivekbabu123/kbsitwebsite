@@ -4,18 +4,18 @@ import React from "react";
 
 
  import Footer from "../components/Footer";
- import hero1 from "../assest/image/New-Project-49-1.webp";
- import hero2 from "../assest/image/New-Project-50-1.webp";
- import hero3 from "../assest/image/New-Project-51-1.webp";
- import hero4 from "../assest/image/New-Project-52.webp";
- import hero5 from "../assest/image/New-Project-53-1.webp";
- import partner1 from "../assest/image/partnersico@3x.png";
- import partner2 from "../assest/image/ctaimg-2-768x625.webp";
- import attractiv1 from "../assest/image/vector-smart-object-copy@2x.png";
- import attractiv2 from "../assest/image/retainlytics@2x.png";
- import attractiv3 from "../assest/image/customize@2x.png";
- import attractiv4 from "../assest/image/scalable@2x.png";
- import user from "../assest/image/5-d-51-b-1589-c-copy@3x.png";
+ import hero1 from "../assest/image/homepage1.webp";
+ import hero2 from "../assest/image/homepage2.webp";
+ import hero3 from "../assest/image/homepage3.webp";
+ import hero4 from "../assest/image/homepag4.webp";
+ import hero5 from "../assest/image/homepage5.webp";
+ import partner1 from "../assest/image/partner.png";
+ import partner2 from "../assest/image/ctaimg.webp";
+ import attractiv1 from "../assest/image/attrac1.png";
+ import attractiv2 from "../assest/image/attrac2.png";
+ import attractiv3 from "../assest/image/attrac3.png";
+ import attractiv4 from "../assest/image/attrac4.png";
+ import user from "../assest/image/multiuser.png";
 import SimpleSlider from "../components/SimpleSlider";
 import Contactus from "../components/Contactus";
 

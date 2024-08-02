@@ -2,11 +2,11 @@ import React from "react";
 import Slider from "react-slick"; 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import client1 from '../assest/image/New-Project-49-1.webp';             
-import client2 from '../assest/image/New-Project-50-1.webp';             
-import client3 from '../assest/image/New-Project-51-1.webp';             
-import client4 from '../assest/image/New-Project-52.webp';             
-import client5 from '../assest/image/New-Project-53-1.webp';             
+import client1 from '../assest/image/homepage1.webp';             
+import client2 from '../assest/image/homepage2.webp';             
+import client3 from '../assest/image/homepage3.webp';             
+import client4 from '../assest/image/homepag4.webp';             
+import client5 from '../assest/image/homepage5.webp';             
 
 const SimpleSlider = () => {
   const settings = {
