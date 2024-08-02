@@ -1,4 +1,5 @@
 import React from "react";
+import Contactimage from "../assest/image/ithelpdesk.png";
 
 let Contactus = () => {
   return (
@@ -19,12 +20,12 @@ let Contactus = () => {
                 </h5>
                 <p>
                   <a className="footerEmailer" href="mailto:Sales@kbitsolutions.com.au">
-                    <i className="fa fa-envelope-o"></i> Sales@kbitsolutions.com.au
+                  <box-icon type='solid' name='envelope'></box-icon>Sales@kbitsolutions.com.au
                   </a>
                 </p>
                 <p>
                   <a className="footerTel" href="tel:+61455254491">
-                    <i className="fa fa-phone"></i> +61455 254 491
+                  <box-icon type='solid' name='phone-call'></box-icon> +61455 254 491
                   </a>
                 </p>
               </div>
@@ -36,25 +37,18 @@ let Contactus = () => {
                 </h5>
                 <p>
                   <a className="footerEmailer" href="mailto:Sales@kbitsolutions.com.au">
-                    <i className="fa fa-envelope-o"></i> Sales@kbitsolutions.com.au
+                  <box-icon type='solid' name='envelope'></box-icon> Sales@kbitsolutions.com.au
                   </a>
                 </p>
                 <p>
                   <a className="footerTel" href="tel:+61455254491">
-                    <i className="fa fa-phone"></i> +61455 254 491
+                  <box-icon type='solid' name='phone-call'></box-icon> +61455 254 491
                   </a>
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
-              <img
-                alt="Dubai"
-                width="650"
-                height="auto"
-                src="https://cdn-gnpmp.nitrocdn.com/zXfatNvCxdJLOJQwdBcjdAFpyWHclmaD/assets/images/optimized/rev-6b6d411/www.code-brew.com/wp-content/uploads/2019/09/dubai.webp"
-                className="country-wonder lazyloaded img-fluid"
-                decoding="async"
-              />
+            <div className="col-md-6 text-center">
+             <img src={Contactimage} alt="image" className="img-fluid"></img>
             </div>
           </div>
         </div>

@@ -56,7 +56,7 @@ const Header = () => {
                       <div className="col-lg-3 col-md-6">
                         <h5>FOOD DELIVERY</h5>
                         <ul className="list-unstyled">
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon name='restaurant'></box-icon>Delivery App</Link></li>
+                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/DeliveryApp"><box-icon name='restaurant'></box-icon>Delivery App</Link></li>
                           <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon name='map-pin'></box-icon>E-Commerce Delivery</Link></li>
                           <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='coffee-alt'></box-icon>Grocery Delivery</Link></li>
                           <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='ship'></box-icon>Food Delivery</Link></li>

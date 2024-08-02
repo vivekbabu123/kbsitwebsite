@@ -152,10 +152,10 @@ let BlockChain = () => {
           </div>
           <div className="row g-3">
             {" "}
-            {/* Added gutter using Bootstrap's g-3 class */}
+           
             <div className="col step">
               {" "}
-              {/* Removed individual col classes for each step */}
+             
               <div className="step-icon">
                 <box-icon name="check" color="white"></box-icon>
               </div>

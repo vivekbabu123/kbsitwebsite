@@ -1,0 +1,190 @@
+.delivery_app{
+    background-color: #03365a;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deliv_hero h2 {
+    text-align: center;
+    font-size: 50px; /* Adjust as needed */
+    font-weight: 600;
+    color: #fff;
+}
+
+.deliv_hero p {
+    text-align: center;
+    font-size: 20px; /* Adjust as needed */
+    font-weight: 400;
+    color: #fff;
+}
+
+.dboy {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.dboy img {
+    max-width: 100%; 
+    height: auto; 
+}
+.heading_install{
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.delivery_analysis {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assest/image/deliveryapp/deliveyanalysis.png);
+   height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deliverpickup{
+    background-color: #000;
+}
+.numberdelivery h2{
+    font-size: 99px;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    color: #8BC541;
+}
+.numberdelivery h2::before{
+  position: absolute;
+  content: '';
+  width: 25%;
+  height: 2px;
+  background-color: #8BC541;
+  left:13%;
+  top: 50px;
+}
+.numberdelivery h2::after{
+    position: absolute;
+    content: '';
+    width: 25%;
+    height: 2px;
+    background-color: #8BC541;
+    right:13%;
+    top: 50px;
+  }
+  .title-deliver h4{
+            font-size: 36px;
+            color: #fff;
+            font-weight: 500;
+  }
+  .title-deliver ul{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.customization {
+    margin-top: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.customization h2 {
+    font-size: 24px;
+    color: #4CAF50; /* Green color for headings */
+    margin-bottom: 10px;
+}
+
+.customization p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.customization:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+.book_delivey h2{
+    color: #4CAF50;
+    font-weight: 800;
+}
+.book_delivey button{
+   background-color: #4CAF50;
+   padding: 10px 15px;
+   font-size: 18px;
+   color: #fff;
+}
+.book_delivey button:hover{
+    background-color: #4CAF50;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #fff;
+ }
+
+/* Media Queries for Responsiveness */
+@media screen and (min-device-width: 768px) and (max-device-width: 991px){
+    .deliv_hero h2 {
+       
+        font-size: 28px;
+     
+    }
+    .delivery_analysis {
+        height: 520px;
+    }
+    .title-deliver h4{
+        font-size: 26px;
+    }
+    .title-deliver ul{
+        font-size: 16px;
+    }
+    .book_delivey {
+        padding: 10px !important;
+    }
+    .step-description{
+        font-size: 0.8rem;
+    }
+    .book_delivey h2 {
+        font-size: 20px;
+    }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    .deliv_hero h2 {
+       
+        font-size: 18px;
+     
+    }
+    .deliv_hero p {
+       
+        font-size: 13px;
+       
+    }
+    .heading_install {
+        font-size: 27px;
+       
+    }
+    .delivery_analysis {
+    
+        height: 1035px;
+       
+    }
+    .numberdelivery h2::before{
+        left: 4%;
+    }
+    .numberdelivery h2::after{
+        right: 9%;
+    }
+    .step-description{
+        font-size: 0.9rem;
+    }
+    .book_delivey {
+        flex-direction: column !important;
+        padding: 15px !important;
+    }
+    
+}
+
+
+
