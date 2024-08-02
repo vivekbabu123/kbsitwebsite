@@ -76,14 +76,14 @@ const Header = () => {
                         <ul className="list-unstyled">
                           <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='briefcase-alt'></box-icon>E-Mart</Link></li>
                           <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon name='server'></box-icon>Spectacles Store</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='fridge'></box-icon>Liquor Store</Link></li>
+                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/ServicesGrid"><box-icon type='solid' name='fridge'></box-icon>Liquor Store</Link></li>
                         </ul>
                       </div>
                       <div className="col-lg-3 col-md-6">
                         <h5>SOFTWARE DEVELOPMENT</h5>
                         <ul className="list-unstyled">
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon name='globe'></box-icon>Web Development</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='mobile'></box-icon>Mobile App Development</Link></li>
+                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/ServicesGrid/WebDevelopment"><box-icon name='globe'></box-icon>Web Development</Link></li>
+                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/ServicesGrid/MobileDevelopment"><box-icon type='solid' name='mobile'></box-icon>Mobile App Development</Link></li>
                           <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='user-voice'></box-icon>Partnership</Link></li>
                         </ul>
                       </div>
