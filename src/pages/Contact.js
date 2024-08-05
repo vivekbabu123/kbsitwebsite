@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import "../App.css";
 import Footer from "../components/Footer";
+import CountryFlag from 'react-country-flag';
 
 let Contact = () => {
   return (
@@ -153,12 +154,7 @@ let Contact = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img
-                        src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/125px-Flag_of_India.svg.png"
-                        alt="img"
-                        className="img-fluid"
-                        style={{ width: "25px" }}
-                      />
+                       <CountryFlag countryCode="IN" svg style={{ width: '2em', height: '2em' }} />
                       <span className="ps-2 fs-6">
                         {" "}
                         377 , 1st Floor, Bmm, Phase 11, Sector 65, Sahibzada
@@ -172,11 +168,7 @@ let Contact = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAwFBMVEUBIWn////kACsAIWnjABjuiI/vlpbujpIAH2gAAFnKzNjLytbDx9XiAAAAAF8AAF3jAB8AHGcACGE2H2SHjKnrbXPqXWf4ztH619sAGGZ+g6Pu7/MAAFTkACTrACfZCDI9QXj96OkYJWrrdXv2w8jsgIMAE2TiAAvl5uz84OEAAE9uc5e5vMzoU17qSVneho7XACIyOnU6LWyTmLJcYYxNVoVITX8AADvU2OL1tr3q1NnaWWnpx802EF1hapKmq8GhthSDAAAEyklEQVRoge1YDVPbOBCVIt+h+IhlqyagODkSBxyTGAoNSd32Cv//X50kf0S25VhcnZm2xxsyAbx62n1aaVcGF1cwRzChDgY6oKEN4Zk1kLDOILSHSGuIHToJ4N2tOxi4o/ElcN1xSR/7oYP5sOyn+CA9ed0IIOyEPqdezqyBawmngTtwVwfv4wmjTe+NPMeUTWK4uLUE9fhSsIHbkStCULyfNugNyDGdcq8Xy5GlsIF8rlE2l9Te96Q45uRcEE8KIh096ABEKFKlivaAYmSqOcIU+DqWCdDPGU8cRZyjnmPqlFrX4m9RSzwkBHeTY0Ky0W0rh5R1Xqlzh7n2beRl8lnNnMtmb2RoRTU+f6vmXGv9ipW7pVzvyIca7WV4WnIhp4h3VdUa+lEt14pM1RgHPj8UmuR8o7c7oyRp+UEUK2FeKmGu6+TrTEa32OiFjJiiyqGgom2BNudV8vNNbaMfEkAFGNawXnPvebgC9wclq+QQXl1IC3Xx1+s6FzhvIEkCCBc3Al/uWsgXX+Tzw+MgSZpMAJqi6rkRTkv+pynuZxn57N54CLBMkXNzdtMRKzA4Hf5+J//dyE+ain8Y4uyh2EQPZ6ZjfuGz5a8m7MPjq0uOm5s2cn4wCwNx8toaIkBqmJJJWlKPLVERspKk9fzyYTRajWbLBS8WfGgN1YYT0yGvQwX1hay+S+7XpF5DeRde0I9Hs4G1uhX0Q9qs+2X9d0T3dBjk5oP8abNAi06h4QTv0mrXh6JQZ8W5pOY12nJluLyia/oW2SmU9CtpfVd2aUUHUHQtXruxjlzrjBTHq/X3WUOkCdORYbb0ithx6jKOlotqY5S37qqRmy0QoV1dLiW6BCivDwiTUPF67PL5Zxdi/jC/ABxr/nl+NUdnchI+mtKa1u5KPgRKO3ms+edxAzVusVqWjJtS5cHV+BDWsNpOHr8T8d1RY5Hacwd1c0a19e68zWEa6eIHxXxWVa03XnK1K3cLahvdZ5rW3eSSy7Vn9cQEleTTXHBNyUFzt1jg67fHx+vr629fg6x11wGRJAg+CjOOx49BkJAWQ3EoBDn+uQffv38Q2M/nlVOh+s7Ae5rPP33I8Wk+f/I0RsUJNc+x34P8tuh5nv51SB6x8hh3mhY4YtUHmrG1/2pkpNq/Q4ufRvNTZpc3n5+OnW639G0jzDVE0zieohNp7j1B+NS3LhHLzhLxhsXPdMGMGQ3tjI297KhsBAg/1W0iS76ze2G9yMJ2MJ1gJ8JEFAGCI8fjjenOzPXO0BwuB0ye1xtBvlk/J/zLd3o6l9BUduyBLGGxrJPp1IzbILXYvqy8GYI96y8ViV8l90n3GGNgaqvctrZH+M/kw51KvhuakndrjiK2rYgebFmE+tGcTZ9jWEP8Mu0jzxHZ23Vqqfu+pTGqjgbHYsPeq45a4FW2Lz8iCw43m42/Tez0wJrayXbC/x3+cM5gFkXUIcPP5ZIGn4fEoRFjfeUjwsobCNx+T26MAx3CyS+2F7RJItOc9VyJInEk2o4jMmcTGQ8zA92KoxBjcUC+tUp3ATkJTCNeP70oha/mZ7mZ5jSNQ1nYWBintF/NMUvDfL+zMO0tCTMgEJY9hRf2nYoIH/7EqF9Z/n8w0/wNRu+ad+JX1fxfy5SdFv8wHUEAAAAASUVORK5CYII="
-                        alt="Location Icon"
-                        style={{ width: "30px" }}
-                      />
+                        <CountryFlag countryCode="AU" svg style={{ width: '2em', height: '2em' }} />
                       <span className="ps-2">
                         Level 1, 73 Malop Street, Geelong, VIC 3214
                       </span>

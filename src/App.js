@@ -19,6 +19,9 @@ import MobileDevelopment from './pages/MobileDevelopment';
 import EnterpriseSoftwareDevelopment from './pages/EnterpriseSoftwareDevelopment';
 import BlockChain from './pages/BlockChain';
 import DeliveryApp from './pages/DeliveryApp';
+import ECommerce2 from './pages/ECommerce2';
+import GroceryDelivery from './pages/GroceryDelivery';
+import FoodDelivery from './pages/FoodDelivery';
 import 'boxicons/css/boxicons.min.css';
 
 
@@ -44,7 +47,11 @@ function App() {
           <Route path="/ServicesGrid/MobileDevelopment" element={<MobileDevelopment />}/>  
           <Route path="/ServicesGrid/EnterpriseSoftwareDevelopment" element={<EnterpriseSoftwareDevelopment />}/>  
           <Route path="/ServicesGrid/BlockChain" element={<BlockChain />}/> 
-          <Route path="/Industry/DeliveryApp" element={<DeliveryApp />}/>          
+          <Route path="/Industry/DeliveryApp" element={<DeliveryApp />}/>    
+          <Route path="/Industry/ECommerce2" element={<ECommerce2 />}/>  
+          <Route path="/Industry/GroceryDelivery" element={<GroceryDelivery />}/>  
+          <Route path="/Industry/FoodDelivery" element={<FoodDelivery />}/>  
+
         </Routes>
       </Router>
     </div>

@@ -1,0 +1,116 @@
+.hero_commerce{
+    background-color: #03365a;
+}
+.heading_commerce h2{
+   
+    font-size: 52px;
+    color: #fff;
+    font-weight: 700;
+}
+.heading_commerce p{
+   
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.enterprise_heading h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.ecom_txt h5{
+    font-size: 32px;
+    font-weight: 500;
+}
+.ecom_txt h1{
+    font-size: 42px;
+    font-weight: 700;
+}
+.ecom_txt p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.heading_mobilecom h1{
+    font-size: 42px;
+    font-style: 700;
+    text-align: center;
+}
+.heading_mobilecom button{
+   background-color: #34AD2F;
+   padding: 5px 20px;
+   color: #fff;
+   font-size: 24px;
+}
+.heading_mobilecom button:hover{
+    background-color: #34AD2F;
+ 
+    color: #fff;
+    
+ }
+ .why_chooseheading h1{
+        font-size: 32px;
+        font-weight: 600;
+ }
+ .why_chooseheading p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.whycardecom{
+    margin-top: 30px;
+    padding: 20px 30px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.mobile_card{
+    margin-top: 30px;
+    padding: 20px 30px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px){
+    .heading_commerce h2{
+        font-size: 36px;
+    }
+    .heading_commerce p{
+        font-size: 16px;
+    }
+    .enterprise_heading h2{
+        font-size: 32px;
+    }
+    .heading_mobilecom h1{
+        font-size: 30px;
+    }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    .heading_commerce h2{
+        font-size: 32px;
+    }
+    .heading_commerce p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .enterprise_heading h2{
+        text-align: justify;
+        font-size: 22px;
+    }
+    .ecom_txt h1{
+        font-size: 30px;
+    }
+    .ecom_txt p{
+        text-align: justify;
+    }
+    .heading_mobilecom h1{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .why_chooseheading p{
+        text-align: justify;
+        font-size: 16px;
+    }
+    .mobile_card {
+        margin-top: 10px;
+        padding: 10px 20px;
+       
+    }
+}

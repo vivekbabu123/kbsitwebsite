@@ -1,0 +1,148 @@
+.grocerybg{
+    background: url(../assest/image/grocessary/bg.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 200px;
+}
+.grocery_heading h1{
+    font-size: 56px;
+    font-weight: 800;
+}
+.grocery_heading p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.heading_business{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+.groccsary_market img{
+    width: 80px;
+    border:4px solid #0f67f6;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.groccsary_market h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.groccsary_market p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+  
+}
+.groccsary_market{
+    margin-top: 40px;
+    padding: 15px;
+}
+.groccsary_market:hover{
+    box-shadow: rgba(15, 103, 246, 0.16) 0px 1px 2px, rgba(15, 103, 246, 0.5) 0px 0px 0px 3px; 
+    border-radius: 10px;
+}
+.pinacle_btn button{
+    margin-top: 20px;
+    background-color: #8BC541;
+}
+.pinacle_btn button:hover{
+    background-color: #8BC541;
+}
+.heading_webapps h2{
+    font-size: 42px;
+    text-align: center;
+    font-weight: 800;
+}
+.accordion {
+    background-color: #8BC541;
+    color: #fff !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    font-weight: 800;
+    white-space: nowrap;
+    margin: 10px;
+  }
+  
+  .active, .accordion:hover {
+    border: 2px solid #0f67f6; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .accordion:after {
+    content: '\2795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #fff !important;
+    float: right;
+    margin-left: 5px;
+    background-color: #fff;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  .heading_add h1{
+    font-size: 56px;
+    font-weight: 700;
+  }
+  .feature_txt h2{
+        font-weight: 800;
+        font-size: 30px;
+  }
+  .grossery_whychoose{
+    background-image: url(../assest/image/grocessary/11.png);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .haeding_grossery p{
+    font-size:18px;
+    font-weight: 500;
+  }
+  @media screen and (min-device-width: 768px) and (max-device-width: 991px){
+    .feature_additional {
+        flex-direction: column;
+    }
+  }
+  @media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    .grocerybg {
+     
+        height: 391px;
+      
+        margin-bottom: 10px;
+    }
+    .heading_business {
+      
+        font-size: 34px;
+       
+    }
+   .heading_add h1 {
+        font-size: 37px;
+        
+    }
+    .feature_additional{
+        flex-direction: column;
+    }
+    .feature_additional img{
+        width: 100% !important;
+    }
+    .grossery_whychoose {
+      
+        height: 1081px;
+       
+    }
+  }

@@ -1,0 +1,161 @@
+.food_hero{
+    position:relative;
+    background-color: #000;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food_hero::before{
+   background-image: url(../assest/image/fooddelivery/1.webp);
+   position: absolute;
+   content: '';
+   width: 357px;
+   height: 560px;
+   left: 0;
+}
+.food_hero::after{
+    background-image: url(../assest/image/fooddelivery/2.webp);
+    position: absolute;
+    content: '';
+    width: 357px;
+    height: 560px;
+    right: 0px;
+    background-repeat: no-repeat;
+ }
+ .heading_food h2{
+        font-size: 42px;
+        font-weight: 800;
+        color: #fff;
+ }
+ .heading_food button{
+    padding: 12px 20px;
+    background-color: #61CE70;
+    font-size: 20px;
+    
+ }
+ .heading_food button:hover{
+    padding: 12px 20px;
+    background-color: #61CE70;
+    font-size: 20px;
+    
+ }
+ .heading_statics{
+    font-size: 42px;
+        font-weight: 800;
+ }
+ .order_process{
+    padding: 20px;
+    border-radius: 10px;
+ }
+ .order_process:hover{
+    background-color: #61CE70;
+    padding: 20px;
+    border-radius: 10px;
+ }
+ .order_txt h2{
+        font-size: 42px;
+        font-weight: 800;
+ }
+ .order_txt p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.downlod_delivery{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.986), rgba(0, 0, 0, 0.7)), url(../assest/image/fooddelivery/4.png);
+    height: 270px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.downlod_heading h2{
+    font-size: 42px;
+    color: #fff;
+    font-weight: 800;
+
+}
+.order_food h3{
+    font-size: 26px;
+  
+    font-weight: 600;
+
+}
+.individual_resrt{
+    background-color: #ffdba8;
+    padding: 40px;
+    border-radius: 15px;
+}
+.individual_resrt h2{
+    font-weight: 800;
+}
+.item_foodonline{
+    background-color: #ffdba8;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+}
+.food_uper h2{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    color: #fff;
+
+}
+.food_uper button{
+    background-color: #61CE70;
+    padding: 12px 20px;
+    font-size: 18px;
+}
+.food_uper button:hover{
+    background-color: #61CE70;
+    
+}
+/* media query start */
+@media screen and (min-device-width: 768px) and (max-device-width: 991px){
+    .food_hero::before{
+        display:none;
+    }
+    .food_hero::after{
+        display:none;
+    }
+    .food_hero {
+        height: 300px;
+    }
+    .heading_statics {
+        font-size: 32px;
+        font-weight: 800;
+    }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+   
+    .heading_food h2 {
+        font-size: 27px;
+      
+    }
+    .food_hero {
+        height: 300px;
+    }
+    .heading_statics {
+        font-size: 18px;
+       
+    }
+    .downlod_heading h2 {
+        font-size: 32px;
+       
+    }
+    .individual_resrt{
+        margin: 10px 0;
+    }
+    .accordion {
+        font-size: 13px;
+    }
+    .food_uper h2 {
+       
+        font-size: 20px;
+       
+    }
+}
+/* media query finish */
