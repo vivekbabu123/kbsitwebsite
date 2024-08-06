@@ -1,0 +1,161 @@
+.crm_hero{
+    background-color: #1D805E;
+
+}
+.crm_herotxt h2{
+    font-size: 72px;
+    font-weight: 800;
+    color: #fff;
+}
+.crm_herotxt button{
+    background-color: #8BC541;
+    padding: 12px 20px;
+}
+.crm_herotxt button:hover{
+    background-color: #8BC541;
+    padding: 12px 20px;
+}
+.sales_crm h2{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+.sales_crm button{
+    background-color: #8BC541;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+.sales_crm button:hover{
+    background-color: #8BC541;
+   
+}
+.sales_needtxt h2{
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+.sales_needtxt p{
+
+    font-size: 18px;
+    font-weight: 400;
+}
+.heading_crm {
+    font-size: 45px;
+    font-weight: 800;
+}
+.crm_solutionexpensive button{
+    background-color: #8BC541;
+    padding: 8px 18px;
+    font-size: 16px;
+}
+.crm_solutionexpensive button:hover{
+    background-color: #8BC541;
+    
+}
+.heading_benfit {
+    font-size: 45px;
+    font-weight: 700;
+}
+.system_txt p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.crm_platefrm{
+    font-size: 56px;
+    font-weight: 800;
+}
+.crm_text{
+    font-size: 18px;
+    font-weight: 400;
+}
+.leads_client {
+    margin-top: 15px;
+    background-color:#8BC541; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #fff;
+}
+
+.leads_client:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.leads_client h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.book_crm button{
+    background-color: #8BC541;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+.book_crm button:hover{
+    background-color: #8BC541;
+    
+}
+/* media query start */
+@media screen and (min-device-width: 768px) and (max-device-width: 991px){
+    .crm_herotxt h2 {
+        font-size: 44px;
+        
+    }
+    .sales_needtxt p{
+        text-align: justify;
+    }
+    .whycardecom p{
+        font-size: 14px;
+    }
+    .crm_solutionexpensive  h2{
+font-size: 16px;
+
+    }
+    .heading_benfit {
+        font-size: 30px;
+        
+    }
+    .whycard p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .system_txt p{
+        text-align: justify;
+    }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    .crm_herotxt h2 {
+        font-size: 46px;
+      
+    }
+    .sales_crm {
+        margin-top: 10px;
+    }
+    .sales_needtxt p{
+        text-align: justify;
+    }
+    .heading_crm {
+        font-size: 33px;
+       
+    }
+    .crm_solutionexpensive{
+        flex-direction: column;
+    }
+    .crm_solutionexpensive h2{
+        font-size: 14px;
+    }
+    .heading_benfit {
+        font-size: 28px;
+     
+    }
+    .system_txt p{
+        text-align: justify;
+    }
+    .crm_platefrm {
+        font-size: 39px;
+       
+    }
+}
+/* media quert finish */

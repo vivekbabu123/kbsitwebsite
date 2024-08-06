@@ -65,8 +65,8 @@ const Header = () => {
                       <div className="col-lg-3 col-md-6">
                         <h5>CRM</h5>
                         <ul className="list-unstyled">
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='cabinet'></box-icon>CRM</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='layer-minus'></box-icon>Sales CRM</Link></li>
+                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/CRM"><box-icon type='solid' name='cabinet'></box-icon>CRM</Link></li>
+                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/SalesCRM"><box-icon type='solid' name='layer-minus'></box-icon>Sales CRM</Link></li>
                           <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='business'></box-icon>Real Estate CRM</Link></li>
                           <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='book-reader'></box-icon>Education CRM</Link></li>
                         </ul>

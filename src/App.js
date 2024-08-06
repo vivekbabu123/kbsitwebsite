@@ -22,6 +22,8 @@ import DeliveryApp from './pages/DeliveryApp';
 import ECommerce2 from './pages/ECommerce2';
 import GroceryDelivery from './pages/GroceryDelivery';
 import FoodDelivery from './pages/FoodDelivery';
+import CRM from './pages/CRM';
+import SalesCRM from './pages/SalesCRM';
 import 'boxicons/css/boxicons.min.css';
 
 
@@ -51,6 +53,9 @@ function App() {
           <Route path="/Industry/ECommerce2" element={<ECommerce2 />}/>  
           <Route path="/Industry/GroceryDelivery" element={<GroceryDelivery />}/>  
           <Route path="/Industry/FoodDelivery" element={<FoodDelivery />}/>  
+          <Route path="/Industry/CRM" element={<CRM />}/>  
+          <Route path="/Industry/SalesCRM" element={<SalesCRM />}/>  
+
 
         </Routes>
       </Router>
