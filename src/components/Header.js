@@ -67,15 +67,15 @@ const Header = () => {
                         <ul className="list-unstyled">
                           <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/CRM"><box-icon type='solid' name='cabinet'></box-icon>CRM</Link></li>
                           <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/SalesCRM"><box-icon type='solid' name='layer-minus'></box-icon>Sales CRM</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='business'></box-icon>Real Estate CRM</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='book-reader'></box-icon>Education CRM</Link></li>
+                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/RealEstateCRM"><box-icon type='solid' name='business'></box-icon>Real Estate CRM</Link></li>
+                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/EducationCRM"><box-icon type='solid' name='book-reader'></box-icon>Education CRM</Link></li>
                         </ul>
                       </div>
                       <div className="col-lg-3 col-md-6">
                         <h5>E-COMMERCE</h5>
                         <ul className="list-unstyled">
                           <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon type='solid' name='briefcase-alt'></box-icon>E-Mart</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="#"><box-icon name='server'></box-icon>Spectacles Store</Link></li>
+                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/Spactacles"><box-icon name='server'></box-icon>Spectacles Store</Link></li>
                           <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/ServicesGrid"><box-icon type='solid' name='fridge'></box-icon>Liquor Store</Link></li>
                         </ul>
                       </div>

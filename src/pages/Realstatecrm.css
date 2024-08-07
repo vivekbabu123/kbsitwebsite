@@ -1,0 +1,192 @@
+.hero_realstate{
+    background-color: #0c4148;
+}
+.realstatehero_txt h2{
+    font-size: 72px;
+    font-weight: 800;
+    color: #fff;
+}
+.realstatehero_txt p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+.realstatehero_txt button{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #8BC541;
+    padding: 12px 25px;
+}
+.realstatehero_txt button:hover{
+   
+    color: #fff;
+    background-color: #8BC541;
+    
+}
+.realstateimg img {
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.realstateimg:hover img {
+    transform: scale(1.1); /* Scale up on hover */
+}
+.realstate_heading{
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.realstate_txt h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+.realstate_txt p{
+    font-size: 19px;
+    font-weight: 400;
+    text-align: justify;
+}
+.tecnolgies_realheading h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.tecnolgies_realheading p{
+    font-size: 19px;
+    font-weight: 400;
+}
+.realstate_why{
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    background-color: #8BC541;
+}
+.realstate_why h2{
+    font-weight: 800;
+}
+.notch_web1{
+    background-image: url(../assest/image/webdevelopment/web-bgsection.jpg);
+    height: 1200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.crm_realsoftware{
+    background-image: url(../assest/image/realstate/8.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crm_realsoftware {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 40px 0; /* Padding for top and bottom */
+}
+
+.crm_realsoftware h2 {
+    font-size: 2.5rem; /* Increase font size for heading */
+    color: #333; /* Dark text color */
+    margin-bottom: 30px; /* Space below the heading */
+}
+
+.improve_item {
+    background-color: #fff; /* White background for each stat box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding inside the boxes */
+    transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+.improve_item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.crm_realsoftware h2 {
+    font-size: 3rem; /* Font size for the count */
+    color: #4CAF50; /* Green color for the count */
+    margin: 10px 0; /* Space above and below the count */
+}
+
+.crm_realsoftware p {
+    font-size: 1.2rem; /* Font size for the description */
+    color: #555; /* Gray color for the description */
+    margin: 0; /* Remove margin */
+}
+.count_food{
+    font-size: 24px;
+    padding: 15px 0;
+    color: #fff;
+}
+/* Media Query Start */
+@media screen and (min-device-width: 1024px) and (max-device-width: 1200px){
+    .notch_web1{
+        height: 1550px;
+    }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .realstatehero_txt h2 {
+        font-size: 30px;
+    }
+    .realstate_heading {
+        font-size: 33px;
+       
+    }
+    .realstate_txt h2 {
+        font-size: 33px;
+       
+    }
+    .realstate_txt p {
+        font-size: 14px;
+       
+    }
+    .tecnolgies_realheading h1 {
+        font-size: 27px;
+      
+    }
+    .notch_web1 {
+      
+        height: 1730px;
+       
+    }
+    .crm_realsoftware {
+        height: 500px;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .realstatehero_txt h2 {
+        font-size: 27px;
+    }
+
+    .realstatehero_txt {
+        margin-bottom: 10px;
+    }
+
+    .realstate_heading {
+        font-size: 28px;
+    }
+
+    .realstate_txt h2 {
+        font-size: 31px;
+    }
+
+    .tecnolgies_realheading h1 {
+        font-size: 22px;
+    }
+
+    .notch_web1 {
+        height: 2744px; /* Ensure this height is appropriate for your design */
+    }
+
+    .crm_realsoftware {
+        height: 1000px; /* Ensure this height is appropriate for your design */
+    }
+
+    .improve_item {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .count_food {
+        font-size: 18px;
+    }
+}
+/* Media Query Finish */

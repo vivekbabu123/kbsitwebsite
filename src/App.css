@@ -47,6 +47,27 @@ body{
             padding: 40px 20px;
             border-radius: 20px;
     }
+    .spactless_hero{
+        background-image: url(./assest/image/glass/hero.png);
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .spactless_hero h2{
+        font-size: 56px;
+        font-weight: 800;
+        color: #8BC541;
+    }
+    .glass_card1 h1{
+        font-size: 42px;
+        color: #fff;
+        text-align: center;
+        margin: 10px 0;
+    }
     @media screen and (min-device-width: 767px) and (max-device-width: 992px){
         .reach_location{
             margin: 10px;

@@ -130,7 +130,7 @@ const GroceryDelivery = () => {
       <section className="pinacle_start">
         <div className="container text-center">
           <h2>Utilize the internet to deliver customers’ orders for groceries</h2>
-          <button className="btn text-white px-5 py-3 fs-5">Get in Touch</button>
+          <button className="btn text-white bg-success px-5 py-3 fs-5">Get in Touch</button>
         </div>
       </section>
       {/* Business Reach The Pinnacle Finish */}
