@@ -185,6 +185,22 @@
   .contact_title span{
     color: #8bc541;
   }
+  .contact-icons {
+    position: fixed; 
+    right: 20px;
+    top: 50%; 
+    display: flex;
+    gap: 15px; 
+    z-index: 1000; 
+    flex-direction: column;
+}
+
+.contact-icons a {
+    background-color: #8bc541;
+    border-radius: 25%;
+    text-decoration: none; 
+}
+
 
 
 #myCarouseladdress .item h4 {

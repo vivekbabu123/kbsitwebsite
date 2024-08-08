@@ -15,16 +15,16 @@ let Footer = () =>{
                             <div className="footer_list">
                                 <ul>
                                     <li>
-                                        <a href="#">Food Delivery</a>
+                                        <a href="/Industry/FoodDelivery">Food Delivery</a>
                                     </li>
                                     <li>
-                                        <a href="#">E- Commerce Delivery</a>
+                                        <a href="/Industry/ECommerce2">E- Commerce Delivery</a>
                                     </li>
                                     <li>
-                                        <a href="#">Education</a>
+                                        <a href="Industry/EducationCRM">Education</a>
                                     </li>
                                     <li>
-                                        <a href="#">Real Estate</a>
+                                        <a href="/Industry/RealEstateCRM">Real Estate</a>
                                     </li>
                                 </ul>
                             </div>
@@ -39,19 +39,19 @@ let Footer = () =>{
                                         <a href="#">Blockchain Development</a>
                                     </li>
                                     <li>
-                                        <a href="#">Web Development</a>
+                                        <a href="/ServicesGrid/WebDevelopment">Web Development</a>
                                     </li>
                                     <li>
-                                        <a href="#">Growth & Marketing</a>
+                                        <a href="/ServicesGrid/GrowthandMarketing">Growth & Marketing</a>
                                     </li>
                                     <li>
-                                        <a href="#"> E-mart</a>
+                                        <a href="/Industry/EMart"> E-mart</a>
                                     </li>
                                     <li>
-                                        <a href="#"> Spectacles store</a>
+                                        <a href="/Industry/Spactacles"> Spectacles store</a>
                                     </li>
                                     <li>
-                                        <a href="#">  Liquor store</a>
+                                        <a href="/ServicesGrid">  Liquor store</a>
                                     </li>
                                 </ul>
                             </div>
@@ -69,13 +69,13 @@ let Footer = () =>{
                                         <a href="#">How We Work</a>
                                     </li>
                                     <li>
-                                        <a href="#">CRM</a>
+                                        <a href="/Industry/CRM">CRM</a>
                                     </li>
                                     <li>
-                                        <a href="#">Sales CRM</a>
+                                        <a href="/Industry/SalesCRM">Sales CRM</a>
                                     </li>
                                     <li>
-                                        <a href="#"> ParternerShip</a>
+                                        <a href="/Industry/PartnerShip"> ParternerShip</a>
                                     </li>
                                     
                                 </ul>
@@ -88,13 +88,13 @@ let Footer = () =>{
                             <div className="footer_list">
                                 <ul>
                                 <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">phone Number</label>
+    <label for="exampleInputEmail1" class="form-label">Phone Number</label>
     <input
           type="text"
-          className="form-control form-control-sm"
+          className="form-control form-control-md"
           id="inpMobilePhone"
           name="MobilePhone"
-          placeholder="Enter your phone number"
+          placeholder="Enter Your Phone Number"
          
           required
         />
