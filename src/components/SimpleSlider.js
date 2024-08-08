@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import client1 from '../assest/image/homepage1.webp';             
 import client2 from '../assest/image/homepage2.webp';             
 import client3 from '../assest/image/homepage3.webp';             
-import client4 from '../assest/image/homepag4.webp';             
+import client4 from '../assest/image/driveere.png';             
 import client5 from '../assest/image/homepage5.webp';             
 
 const SimpleSlider = () => {
@@ -58,7 +58,7 @@ const SimpleSlider = () => {
             <img src={client3} alt="Client 3" className="img-fluid" />
           </div>
           <div className="col">
-            <img src={client4} alt="Client 4" className="img-fluid" />
+            <img src={client4} alt="Client 4" className="img-fluid w-75" />
           </div>
           <div className="col">
             <img src={client5} alt="Client 5" className="img-fluid" />

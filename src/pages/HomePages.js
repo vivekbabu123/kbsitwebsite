@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import hero1 from "../assest/image/homepage1.webp";
 import hero2 from "../assest/image/homepage2.webp";
 import hero3 from "../assest/image/homepage3.webp";
-import hero4 from "../assest/image/homepag4.webp";
+import hero4 from "../assest/image/driveere.png";
 import hero5 from "../assest/image/homepage5.webp";
 import partner1 from "../assest/image/partner.png";
 import partner2 from "../assest/image/ctaimg.webp";

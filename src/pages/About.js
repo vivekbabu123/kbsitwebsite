@@ -7,7 +7,7 @@ import abouteimage1 from "../assest/image/about_men.jpg";
 import hero1 from "../assest/image/homepage1.webp";
 import hero2 from "../assest/image/homepage2.webp";
 import hero3 from "../assest/image/homepage3.webp";
-import hero4 from "../assest/image/homepag4.webp";
+import hero4 from "../assest/image/driveere.png";
 
 import abouticon1 from "../assest/image/abtcnt1.webp";
 import abouticon2 from "../assest/image/abtcnt2.webp";
@@ -57,7 +57,7 @@ let About = () => {
           <div className="row align-items-center">
             <div className="col-12 col-md-5 col-lg-5 col-xl-5">
               <div className="world_trust">
-                <h2 className="text-nowrap text-white fw-bold">
+                <h2 className="text-nowrap  fw-bold">
                   World's Leading Brands Trust Us
                 </h2>
               </div>
