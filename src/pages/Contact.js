@@ -141,39 +141,42 @@ let Contact = () => {
           </div>
           <div className="row">
             <div className="col-12 col-md-6 col-lg-3 col-xl-3 ">
-              <div className="text-center reach_location">
+              <div className="reach_location text-center">
                 <div className="me-3">
                   <i className="bx bx-map bx-lg"></i>
                 </div>
                 <div>
                   <h3>Office Address</h3>
-                  <p className="mb-3">
-                    <a
-                      className="text-decoration-none"
-                      href="https://www.google.com/maps/place/SCF+NO+81,+PHASE-11,+SECTOR+65,+Mohali,+India,+Punjab+region"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                       <CountryFlag countryCode="IN" svg style={{ width: '2em', height: '2em' }} />
-                      <span className="ps-2 fs-6">
-                        {" "}
-                        377 , 1st Floor, Bmm, Phase 11, Sector 65, Sahibzada
-                        Ajit Singh Nagar, Punjab 160062
-                      </span>
-                    </a>
-                    <br></br>
-                    <a
-                      className="text-decoration-none mt-4"
-                      href="https://www.google.com/maps/place/SCF+NO+81,+PHASE-11,+SECTOR+65,+Mohali,+India,+Punjab+region"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                        <CountryFlag countryCode="AU" svg style={{ width: '2em', height: '2em' }} />
-                      <span className="ps-2">
-                        Level 1, 73 Malop Street, Geelong, VIC 3214
-                      </span>
-                    </a>
-                  </p>
+                  <div className="mb-3">
+  <div className="address-item">
+    <a
+      className="text-decoration-none"
+      href="https://www.google.com/maps/place/SCF+NO+81,+PHASE-11,+SECTOR+65,+Mohali,+India,+Punjab+region"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <CountryFlag countryCode="IN" svg style={{ width: '2em', height: '2em' }} />
+      <span className="ps-2 fs-6">
+        377, 1st Floor, Bmm, Phase 11, Sector 65, Sahibzada Ajit Singh Nagar, Punjab 160062
+      </span>
+    </a>
+  </div>
+
+  <div className="address-item">
+    <a
+      className="text-decoration-none"
+      href="https://www.google.com/maps/place/SCF+NO+81,+PHASE-11,+SECTOR+65,+Mohali,+India,+Punjab+region"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <CountryFlag countryCode="AU" svg style={{ width: '2em', height: '2em' }} />
+      <span className="ps-2">
+        Level 1, 73 Malop Street, Geelong, VIC 3214
+      </span>
+    </a>
+  </div>
+</div>
+
                 </div>
               </div>
             </div>

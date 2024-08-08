@@ -1,0 +1,101 @@
+.hero_partnership{
+    background-color: #000000;
+}
+.heropartnershiptxt h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.heropartnershiptxt p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.heropartnershiptxt button{
+    padding: 12px 50px;
+    background-color:#61CE70 ;
+    font-size: 18px;
+}
+.heropartnershiptxt button:hover{
+     background-color:#61CE70 ;
+}
+.offering_heading{
+    font-weight: 800;
+    font-size: 35px;
+    color: #000000;
+}
+.offering_title{
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+.partnertxt h2{
+    font-size: 42px;
+    font-weight: 800;
+}
+.partnertxt p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.offering_solution{
+    background-color: #EFF5EC;
+}
+.offer_card{
+    margin-top: 10px;
+    background-color: #000000;
+    padding: 60px;
+}
+.offer_card h5{
+  color: #ffff;
+}
+.vertan_developer{
+    padding: 30px;
+}
+.vertan_developer:hover{
+    border: 4px solid #61CE70;
+    padding: 30px;
+}
+.vertan_check p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    padding-left: 20px;
+}
+.partner_community{
+    padding: 30px;
+}
+.partner_community:hover{
+    border: 4px dashed #61CE70;
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 992px){
+    .heropartnershiptxt h2 {
+        font-size: 26px;
+        
+    }
+    .vertan_check p {
+        font-size: 15px;
+       
+    }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    .heropartnershiptxt h2 {
+        font-size: 35px;
+    }
+    .offering_heading {
+     
+        font-size: 24px;
+        
+    }
+    .offering_title {
+       
+        font-size: 16px;
+       
+    }
+    .offer_card {
+        padding: 30px;
+    }
+    .vertan_check p {
+        font-size: 16px;
+        
+    }
+}

@@ -139,7 +139,7 @@ let GrowthandMarketing = () => {
               </h2>
             </div>
             <div class="container">
-            <div className="row g-3"> {/* Use Bootstrap gutter class for spacing */}
+            <div className="row g-3"> 
             <div className="col">
                 <div className="text-center service-box">
                     <i className='bx bx-desktop'></i>
@@ -160,7 +160,7 @@ let GrowthandMarketing = () => {
             </div>
             <div className="col">
                 <div className="text-center service-box">
-                    <box-icon name='target-lock'></box-icon>
+                <i className='bx bx-cog'></i>
                     <p>SEM</p>
                 </div>
             </div>

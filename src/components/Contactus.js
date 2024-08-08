@@ -6,7 +6,7 @@ let Contactus = () => {
     <React.Fragment>
       <section className="contact_us py-2">
         <div className="container">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-md-6">
               <div className="contact_title">
                 <h6>Contact Us</h6>

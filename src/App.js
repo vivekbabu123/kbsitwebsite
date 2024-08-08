@@ -27,6 +27,8 @@ import SalesCRM from './pages/SalesCRM';
 import Spactacles from './pages/Spectacles';
 import RealEstateCRM from './pages/RealEstateCRM';
 import EducationCRM from './pages/EducationCRM';
+import PartnerShip from './pages/PartnerShip';
+import EMart from './pages/EMart';
 import 'boxicons/css/boxicons.min.css';
 
 
@@ -61,6 +63,8 @@ function App() {
           <Route path="/Industry/Spactacles" element={<Spactacles />}/> 
           <Route path="/Industry/RealEstateCRM" element={<RealEstateCRM />}/> 
           <Route path="/Industry/EducationCRM" element={<EducationCRM />}/> 
+          <Route path="/Industry/EMart" element={<EMart />}/> 
+          <Route path="/Industry/PartnerShip" element={<PartnerShip />}/> 
 
 
 

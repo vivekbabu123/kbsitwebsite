@@ -36,14 +36,29 @@ body{
         font-weight: 600;
     }
     .heading-rach p {
-        font-size: 24px;
+        font-size: 18px;
     }
+    .address-item {
+        padding: 10px 0; 
+      }
+      
+      .address-item a {
+        color: #007bff; 
+        text-decoration: none;
+        display: flex; 
+      
+      }
+      
+      .address-item a:hover {
+        text-decoration: underline; 
+      }
+      
     .heading-rach span{
     color: #8BC541;
     }
     .reach_location{
             background-color: #eff8fc;
-            height: 280px;
+            height: 320px;
             padding: 40px 20px;
             border-radius: 20px;
     }
