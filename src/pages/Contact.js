@@ -1,14 +1,50 @@
-import React from "react";
+import React, { useState } from "react"; // Import useState
 import Header from "../components/Header";
 import "../App.css";
 import Footer from "../components/Footer";
 import CountryFlag from 'react-country-flag';
 
-let Contact = () => {
+const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    service: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Save form data to local storage
+    const existingData = JSON.parse(localStorage.getItem('formData')) || [];
+    existingData.push(formData);
+    localStorage.setItem('formData', JSON.stringify(existingData));
+
+    // Clear the form
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      service: '',
+      message: '',
+    });
+
+    alert('Message sent successfully!');
+  };
+
   return (
     <React.Fragment>
       <Header />
-      {/*  contact heading start */}
+      {/*  Contact heading start */}
       <section className="contact_heading">
         <div className="container">
           <div className="row">
@@ -32,7 +68,7 @@ let Contact = () => {
             </div>
 
             <div className="col-lg-6 col-md-6">
-              <form className="container mt-5">
+              <form className="container mt-5" onSubmit={handleSubmit}>
                 <div className="row mb-3">
                   <div className="col-lg-6 col-md-6">
                     <label htmlFor="name" className="form-label">
@@ -45,7 +81,9 @@ let Contact = () => {
                       aria-required="true"
                       placeholder="Your name*"
                       type="text"
-                      name="your-name"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
                       required
                     />
                   </div>
@@ -60,7 +98,9 @@ let Contact = () => {
                       aria-required="true"
                       placeholder="Email*"
                       type="email"
-                      name="your-email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
                       required
                     />
                   </div>
@@ -75,7 +115,9 @@ let Contact = () => {
                       className="form-control"
                       placeholder="Your phone"
                       type="text"
-                      name="your-phone"
+                      name="phone"
+                      value={formData.phone}
+                      onChange={handleChange}
                     />
                   </div>
                   <div className="col-lg-6 col-md-6">
@@ -86,7 +128,9 @@ let Contact = () => {
                       id="service"
                       className="form-select"
                       aria-required="true"
-                      name="your-service"
+                      name="service"
+                      value={formData.service}
+                      onChange={handleChange}
                       required
                     >
                       <option value="">Select Service</option>
@@ -107,7 +151,9 @@ let Contact = () => {
                     className="form-control"
                     aria-required="true"
                     placeholder="Type message*"
-                    name="your-message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
                     required
                   ></textarea>
                 </div>
@@ -130,11 +176,12 @@ let Contact = () => {
               <div className="heading-rach text-center">
                 <h1>Reach Us</h1>
                 <h6>
-                  Grow Your Business With<span> Our Expertise</span>{" "}
+                  Grow Your Business With<span> Our Expertise</span>
                 </h6>
                 <p>
-                  We understand the importance of approaching each work{" "}
-                  <br></br> integrally and believe in the power of simple.
+                  We understand the importance of approaching each work
+                  <br />
+                  integrally and believe in the power of simple.
                 </p>
               </div>
             </div>
@@ -148,34 +195,34 @@ let Contact = () => {
                 <div>
                   <h3>Office Address</h3>
                   <div className="mb-3">
-  <div className="address-item">
-    <a
-      className="text-decoration-none"
-      href="https://www.google.com/maps/place/SCF+NO+81,+PHASE-11,+SECTOR+65,+Mohali,+India,+Punjab+region"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <CountryFlag countryCode="IN" svg style={{ width: '2em', height: '2em' }} />
-      <span className="ps-2 fs-6">
-        377, 1st Floor, Bmm, Phase 11, Sector 65, Sahibzada Ajit Singh Nagar, Punjab 160062
-      </span>
-    </a>
-  </div>
+                    <div className="address-item">
+                      <a
+                        className="text-decoration-none"
+                        href="https://www.google.com/maps/place/SCF+NO+81,+PHASE-11,+SECTOR+65,+Mohali,+India,+Punjab+region"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <CountryFlag countryCode="IN" svg style={{ width: '2em', height: '2em' }} />
+                        <span className="ps-2 fs-6">
+                          377, 1st Floor, Bmm, Phase 11, Sector 65, Sahibzada Ajit Singh Nagar, Punjab 160062
+                        </span>
+                      </a>
+                    </div>
 
-  <div className="address-item">
-    <a
-      className="text-decoration-none"
-      href="https://www.google.com/maps/place/SCF+NO+81,+PHASE-11,+SECTOR+65,+Mohali,+India,+Punjab+region"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <CountryFlag countryCode="AU" svg style={{ width: '2em', height: '2em' }} />
-      <span className="ps-2">
-        Level 1, 73 Malop Street, Geelong, VIC 3214
-      </span>
-    </a>
-  </div>
-</div>
+                    <div className="address-item">
+                      <a
+                        className="text-decoration-none"
+                        href="https://www.google.com/maps/place/SCF+NO+81,+PHASE-11,+SECTOR+65,+Mohali,+India,+Punjab+region"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <CountryFlag countryCode="AU" svg style={{ width: '2em', height: '2em' }} />
+                        <span className="ps-2">
+                          Level 1, 73 Malop Street, Geelong, VIC 3214
+                        </span>
+                      </a>
+                    </div>
+                  </div>
 
                 </div>
               </div>
@@ -189,10 +236,7 @@ let Contact = () => {
                 <div>
                   <h3>Telephone Number</h3>
                   <p className="mb-0">
-                    <a
-                      className="text-decoration-none"
-                      href="tel:61455-254-491"
-                    >
+                    <a className="text-decoration-none" href="tel:61455-254-491">
                       (+61) 386036202
                     </a>
                   </p>
@@ -208,10 +252,7 @@ let Contact = () => {
                 <div>
                   <h3>Mail Address</h3>
                   <p className="mb-0">
-                    <a
-                      className="text-decoration-none"
-                      href="mailto:Sales@kbitsolutions.com.au"
-                    >
+                    <a className="text-decoration-none" href="mailto:Sales@kbitsolutions.com.au">
                       Sales@kbitsolutions.com.au
                     </a>
                   </p>

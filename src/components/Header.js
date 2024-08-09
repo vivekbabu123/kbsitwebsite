@@ -38,12 +38,12 @@ const Header = () => {
                   <Link className="nav-link dropdown-toggle" to="" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">Service</Link>
                   <ul className="dropdown-menu Service-item">
-                  <li><Link className="dropdown-item" to="/ServicesGrid"><box-icon className="icon" type='solid' name='user-voice'></box-icon>Service</Link></li>
-                    <li><Link className="dropdown-item" to="/ServicesGrid/GrowthandMarketing"><box-icon className="icon" type='solid' name='megaphone'></box-icon>Growth & Marketing</Link></li>
-                    <li><Link className="dropdown-item" to="/ServicesGrid/WebDevelopment"><box-icon name='globe'></box-icon>Web Development</Link></li>
-                    <li><Link className="dropdown-item" to="/ServicesGrid/MobileDevelopment"><box-icon name='mobile'></box-icon>Mobile App Development</Link></li>
-                    <li><Link className="dropdown-item" to="/ServicesGrid/EnterpriseSoftwareDevelopment"><box-icon name='cloud-lightning'></box-icon>Enterprise Software Development</Link></li>
-                    <li><Link className="dropdown-item" to="/ServicesGrid/BlockChain"><box-icon name='infinite'></box-icon>Blockchain</Link></li>
+                  <li><Link className="dropdown-item"  to="/ServicesGrid"><box-icon className="icon" color='#f0ac40'  type='solid' name='user-voice'></box-icon>Service</Link></li>
+                    <li><Link className="dropdown-item" to="/ServicesGrid/GrowthandMarketing"><box-icon className="icon" color="#3dad57" type='solid' name='megaphone'></box-icon>Growth & Marketing</Link></li>
+                    <li><Link className="dropdown-item" to="/ServicesGrid/WebDevelopment"><box-icon name='globe' color='blue'></box-icon>Web Development</Link></li>
+                    <li><Link className="dropdown-item" to="/ServicesGrid/MobileDevelopment"><box-icon name='mobile' color="#f75e35"></box-icon>Mobile App Development</Link></li>
+                    <li><Link className="dropdown-item" to="/ServicesGrid/EnterpriseSoftwareDevelopment"><box-icon name='cloud-lightning' color="#f0ac40"></box-icon>Enterprise Software Development</Link></li>
+                    <li><Link className="dropdown-item" to="/ServicesGrid/BlockChain"><box-icon name='infinite' color="#f0ac40"></box-icon>Blockchain</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item dropdown mega-dropdown">
@@ -54,37 +54,37 @@ const Header = () => {
                   <div className="dropdown-menu mega-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <div className="row">
                       <div className="col-lg-3 col-md-6">
-                        <h5>FOOD DELIVERY</h5>
+                        <h5 className="ps-3">FOOD DELIVERY</h5>
                         <ul className="list-unstyled">
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/DeliveryApp"><box-icon name='restaurant'></box-icon>Delivery App</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/ECommerce2"><box-icon name='map-pin'></box-icon>E-Commerce Delivery</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/GroceryDelivery"><box-icon type='solid' name='coffee-alt'></box-icon>Grocery Delivery</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/FoodDelivery"><box-icon type='solid' name='ship'></box-icon>Food Delivery</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/Industry/DeliveryApp"><box-icon name='restaurant' color='#f0ac40'></box-icon>Delivery App</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/Industry/ECommerce2"><box-icon name='map-pin' color="#3dad57"></box-icon>E-Commerce Delivery</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/Industry/GroceryDelivery"><box-icon type='solid' name='coffee-alt' color='blue'></box-icon>Grocery Delivery</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/Industry/FoodDelivery"><box-icon type='solid' name='ship' color="#f75e35"></box-icon>Food Delivery</Link></li>
                         </ul>
                       </div>
                       <div className="col-lg-3 col-md-6">
-                        <h5>CRM</h5>
+                        <h5 className="ps-3">CRM</h5>
                         <ul className="list-unstyled">
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/CRM"><box-icon type='solid' name='cabinet'></box-icon>CRM</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/SalesCRM"><box-icon type='solid' name='layer-minus'></box-icon>Sales CRM</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/RealEstateCRM"><box-icon type='solid' name='business'></box-icon>Real Estate CRM</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/EducationCRM"><box-icon type='solid' name='book-reader'></box-icon>Education CRM</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/Industry/CRM"><box-icon type='solid' name='cabinet' color="#f75e35"></box-icon>CRM</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/Industry/SalesCRM"><box-icon type='solid' name='layer-minus' color="#f75e35"></box-icon>Sales CRM</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/Industry/RealEstateCRM"><box-icon type='solid' name='business' color="#f0ac40"></box-icon>Real Estate CRM</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/Industry/EducationCRM"><box-icon type='solid' name='book-reader' color="#f4f62f"></box-icon>Education CRM</Link></li>
                         </ul>
                       </div>
                       <div className="col-lg-3 col-md-6">
-                        <h5>E-COMMERCE</h5>
+                        <h5 className="ps-3">E-COMMERCE</h5>
                         <ul className="list-unstyled">
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/EMart"><box-icon type='solid' name='briefcase-alt'></box-icon>E-Mart</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/Spactacles"><box-icon name='server'></box-icon>Spectacles Store</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/ServicesGrid"><box-icon type='solid' name='fridge'></box-icon>Liquor Store</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/Industry/EMart"><box-icon type='solid' name='briefcase-alt' color='blue'></box-icon>E-Mart</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/Industry/Spactacles"><box-icon name='server' color="#3dad57"></box-icon>Spectacles Store</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/ServicesGrid"><box-icon type='solid' name='fridge' color='#f0ac40'></box-icon>Liquor Store</Link></li>
                         </ul>
                       </div>
                       <div className="col-lg-3 col-md-6">
-                        <h5>SOFTWARE DEVELOPMENT</h5>
+                        <h5 className="ps-3">SOFTWARE DEVELOPMENT</h5>
                         <ul className="list-unstyled">
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/ServicesGrid/WebDevelopment"><box-icon name='globe'></box-icon>Web Development</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/ServicesGrid/MobileDevelopment"><box-icon type='solid' name='mobile'></box-icon>Mobile App Development</Link></li>
-                          <li><Link className="dropdown-item bg-secondary-subtle mt-2" to="/Industry/PartnerShip"><box-icon type='solid' name='user-voice'></box-icon>Partnership</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/ServicesGrid/WebDevelopment"><box-icon name='globe' color="#f0ac40"></box-icon>Web Development</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/ServicesGrid/MobileDevelopment"><box-icon type='solid' name='mobile' color="#f0ac40"></box-icon>Mobile App Development</Link></li>
+                          <li><Link className="dropdown-item  mt-2" to="/Industry/PartnerShip"><box-icon type='solid' name='user-voice' color="#f75e35"></box-icon>Partnership</Link></li>
                         </ul>
                       </div>
                     </div>

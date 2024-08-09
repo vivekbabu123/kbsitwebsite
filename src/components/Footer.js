@@ -36,7 +36,7 @@ let Footer = () =>{
                             <div className="footer_list">
                                 <ul>
                                     <li>
-                                        <a href="#">Blockchain Development</a>
+                                        <a href="/ServicesGrid/BlockChain">Blockchain Development</a>
                                     </li>
                                     <li>
                                         <a href="/ServicesGrid/WebDevelopment">Web Development</a>
@@ -104,11 +104,11 @@ let Footer = () =>{
 
         <div className="follow_social pt-3">
             <h2>Follows On</h2>
-            <a href="#"><box-icon type='logo' name='facebook-circle'></box-icon></a>
+            <a href="https://www.facebook.com/profile.php?id=100088825674471"><box-icon type='logo' name='facebook-circle'></box-icon></a>
             <a href="#"><box-icon type='logo' name='twitter'></box-icon></a>
             <a href="#"><box-icon type='logo' name='pinterest-alt'></box-icon></a>
             <a href="#"><box-icon type='logo' name='instagram'></box-icon></a>
-            <a href="#"><box-icon type='logo' name='linkedin'></box-icon></a>
+            <a href="https://www.linkedin.com/company/90224691/admin/dashboard/"><box-icon type='logo' name='linkedin'></box-icon></a>
             <a href="#"><box-icon type='logo' name='youtube'></box-icon></a>
         </div>
 

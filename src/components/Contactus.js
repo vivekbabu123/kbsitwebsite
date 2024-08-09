@@ -38,10 +38,10 @@ const Contactus = () => {
   return (
     <React.Fragment>
       <div className="contact-icons">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/profile.php?id=100088825674471" target="_blank" rel="noopener noreferrer">
           <box-icon type="logo" size="48px" color="#fff" name="facebook"></box-icon>
         </a>
-        <a href="#">
+        <a href="https://wa.link/3gsh74">
           <box-icon type="logo" size="48px" color="#fff" name="whatsapp"></box-icon>
         </a>
       </div>
