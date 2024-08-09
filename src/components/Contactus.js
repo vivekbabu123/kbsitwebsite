@@ -17,6 +17,7 @@ const Contactus = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
+   
     customPaging: (i) => (
       <div className="custom-dot">
         <ReactCountryFlag
@@ -38,101 +39,90 @@ const Contactus = () => {
     <React.Fragment>
       <div className="contact-icons">
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <box-icon
-            type="logo"
-            size="48px"
-            color="#fff"
-            name="facebook"
-          ></box-icon>
+          <box-icon type="logo" size="48px" color="#fff" name="facebook"></box-icon>
         </a>
         <a href="#">
-          <box-icon
-            type="logo"
-            size="48px"
-            color="#fff"
-            name="whatsapp"
-          ></box-icon>
+          <box-icon type="logo" size="48px" color="#fff" name="whatsapp"></box-icon>
         </a>
       </div>
       <div className="container py-4">
-      <Slider {...settings}>
-  {/* Australia Slide */}
-  <div className="row d-flex p-3 align-items-center">
-    <div className="col-md-6">
-      <div className="contact_title">
-        <h6>Contact Us</h6>
-        <h1 className="mb-0">
-          It’s very easy to <span>contact </span> us
-        </h1>
-        <CountryFlag
-          countryCode="AU"
-          svg
-          style={{ width: "5em", height: "5em" }}
-        />
-      </div>
-      <div className="item">
-        <h5>
-          Level 1, office 2, 73 Malop
-          <br />
-          Street Geelong, Victoria, Australia
-        </h5>
-        <p>
-          <a className="footerEmailer" href="mailto:Sales@kbitsolutions.com.au">
-            <box-icon type="solid" name="envelope"></box-icon>
-            Sales@kbitsolutions.com.au
-          </a>
-        </p>
-        <p>
-          <a className="footerEmailer" href="tel:+61455254491">
-            <box-icon type="solid" name="phone-call"></box-icon> +61455 254 491
-          </a>
-        </p>
-      </div>
-    </div>
-    <div className="col-md-6">
-      <img src={aus} alt="First slide" className="img-fluid" />
-    </div>
-  </div>
+        <Slider {...settings}>
+          {/* Australia Slide */}
+          <div className="row d-flex p-3 align-items-center">
+            <div className="col-md-6">
+              <div className="contact_title">
+                <h6>Contact Us</h6>
+                <h1 className="mb-0">
+                  It’s very easy to <span>contact </span> us
+                </h1>
+                <CountryFlag
+                  countryCode="AU"
+                  svg
+                  style={{ width: "5em", height: "5em" }}
+                />
+              </div>
+              <div className="item">
+                <h5>
+                  Level 1, office 2, 73 Malop
+                  <br />
+                  Street Geelong, Victoria, Australia
+                </h5>
+                <p>
+                  <a className="footerEmailer" href="mailto:Sales@kbitsolutions.com.au">
+                    <box-icon type="solid" name="envelope"></box-icon>
+                    Sales@kbitsolutions.com.au
+                  </a>
+                </p>
+                <p>
+                  <a className="footerEmailer" href="tel:+61455254491">
+                    <box-icon type="solid" name="phone-call"></box-icon> +61455 254 491
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <img src={aus} alt="First slide" className="img-fluid rounded" />
+            </div>
+          </div>
 
-  {/* India Slide */}
-  <div className="row d-flex p-3 align-items-center">
-    <div className="col-md-6">
-      <div className="contact_title">
-        <h6>Contact Us</h6>
-        <h1 className="mb-0">
-          It’s very easy to <span>contact </span> us
-        </h1>
-        <CountryFlag
-          countryCode="IN"
-          svg
-          style={{ width: "5em", height: "5em" }}
-        />
-      </div>
-      <div className="item">
-        <h5>
-          377, 1st Floor, BMM, Phase 11, Sector 65,
-          <br />
-          Sahibzada Ajit Singh Nagar, Punjab 160062
-        </h5>
-        <p>
-          <a className="footerEmailer" href="mailto:Sales@kbitsolutions.com.au">
-            <box-icon type="solid" name="envelope"></box-icon>{" "}
-            Sales@kbitsolutions.com.au
-          </a>
-        </p>
-        <p>
-          <a className="footerEmailer" href="tel:+61455254491">
-            <box-icon type="solid" name="phone-call"></box-icon> +61455 254 491
-          </a>
-        </p>
-      </div>
-    </div>
-    <div className="col-md-6">
-      <img src={chd} alt="Second slide" className="img-fluid" />
-    </div>
-  </div>
-</Slider>
-
+          {/* India Slide */}
+          <div className="row d-flex p-3 align-items-center">
+            <div className="col-md-6">
+              <div className="contact_title">
+                <h6>Contact Us</h6>
+                <h1 className="mb-0">
+                  It’s very easy to <span>contact </span> us
+                </h1>
+                <CountryFlag
+                  countryCode="IN"
+                  svg
+                  style={{ width: "5em", height: "5em" }}
+                />
+              </div>
+              <div className="item">
+                <h5>
+                  377, 1st Floor, BMM, Phase 11, Sector 65,
+                  <br />
+                  Sahibzada Ajit Singh Nagar, Punjab 160062
+                </h5>
+                <p>
+                  <a className="footerEmailer" href="mailto:Sales@kbitsolutions.com.au">
+                    <box-icon type="solid" name="envelope"></box-icon>{" "}
+                    Sales@kbitsolutions.com.au
+                  </a>
+                </p>
+                <p>
+                  <a className="footerEmailer" href="tel:+61455254491">
+                    <box-icon type="solid" name="phone-call"></box-icon> +61455 254 491
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <img src={chd} alt="Second slide" className="img-fluid rounded" />
+            </div>
+          </div>
+        </Slider>
       </div>
     </React.Fragment>
   );
