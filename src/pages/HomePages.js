@@ -35,7 +35,7 @@ let HomePages = () => {
                                 Business Digitally</h1>
                             <h6>Accelerating growth for brands like you with technology, <br />
                                 experience & innovation for a decade.</h6>
-                            <button> Get Started</button>
+                           <a href="/contact"><button> Get Started</button></a> 
                         </div>
 
                         <div className="hero_logo pt-5">
@@ -59,7 +59,7 @@ let HomePages = () => {
                     <div className="row">
                         <div className="empower_content">
                             <h2>We Empower Your Business With <br /> Out-Of-The-Box Digital Solutions</h2>
-                            <button>Get In Touch</button>
+                           <a href="/contact"><button>Get In Touch</button></a> 
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ let HomePages = () => {
                                 <div className="empower_partner">
                                     <h5>Empower Your Clients With Industry-Leading Technology Solution</h5>
                                     <p>Collaborate with us to earn more by selling, customizing or integrating our products</p>
-                                    <button>Get in Touch</button>
+                                    <a href="/contact"> <button>Get in Touch</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ let HomePages = () => {
                                     <p>
                                         For your company, our in-house design <br />software, Allurive, adopts a novel strategy to <br />produce exceptional customer experiences.
                                     </p>
-                                    <button>Get in Touch</button>
+                                    <a href="/contact"> <button>Get in Touch</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ let HomePages = () => {
                                     <p>
                                         Utilise Retainlytics, a top-secret tool, to collect<br />precise data and promote your brand’s <br />personalised, customer-focused marketing.
                                     </p>
-                                    <button>Get in Touch</button>
+                                    <a href="/contact"> <button>Get in Touch</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ let HomePages = () => {
                                     <p>
                                         Our in-house design tool, Allurive, uses a cutting - <br />edge approach for your business to create <br />remarkable customer experiences.
                                     </p>
-                                    <button>Get in Touch</button>
+                                    <a href="/contact"> <button>Get in Touch</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -147,7 +147,7 @@ let HomePages = () => {
                                     <p>
                                         Greater scope of scalability help attract & <br />manage new opportunities arising for your<br />business in the future
                                     </p>
-                                    <button>Get in Touch</button>
+                                    <a href="/contact"> <button>Get in Touch</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -207,7 +207,7 @@ let HomePages = () => {
                         <div className="col-12">
                             <div className="free_consputatiopn d-flex justify-content-between align-items-center">
                                 <h2>Setup A Free Consultation To Know How <br />To Take Your Ideas From Concept To <br />Reality</h2>
-                                <button className="text-nowrap">Get In Touch</button>
+                                <a href="/contact"> <button className="text-nowrap">Get In Touch</button></a> 
                             </div>
                         </div>
                     </div>

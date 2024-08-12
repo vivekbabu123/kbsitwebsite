@@ -40,7 +40,7 @@ let About = () => {
                   journey to Success, backed by the right transformative
                   solutions.
                 </p>
-                <button className="btn text-white">Explore More</button>
+              <a href="/contact"><button className="btn text-white">Explore More</button></a>  
               </div>
             </div>
             <div className="col-md-6">
@@ -313,7 +313,7 @@ let About = () => {
                 <h2>
                   Ready to Empower Your Business With Our BREWing process?
                 </h2>
-                <button className="text-white border-0">Get in Touch</button>
+              <a href="/contact"><button className="text-white border-0">Get in Touch</button></a>  
               </div>
             </div>
           </div>

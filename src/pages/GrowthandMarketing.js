@@ -54,7 +54,7 @@ let GrowthandMarketing = () => {
                   We provide complete internet marketing solutions to help your
                   business become digital
                 </p>
-                <button className="btn">Click here</button>
+              <a href="/contact"><button className="btn">Click here</button></a>  
               </div>
             </div>
             <div className="col-md-6">
